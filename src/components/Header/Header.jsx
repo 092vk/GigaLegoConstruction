@@ -5,7 +5,7 @@ import './Header.css'
 function Header() {
   return (
     <section className='h-wrapper'>
-        <div className='flexCenter paddings innerWidth h-container'>
+        <div className='h-container flexCenter paddings innerWidth'>
             <img src="public/logo.svg" alt="logi" width={100}/>
             <div className="flexCenter h-menu">
                 <a href="">Home</a>

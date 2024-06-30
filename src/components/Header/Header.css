@@ -4,7 +4,7 @@
 }
 
 .h-container{
-    justify-content:space-between;
+    justify-content:space-between !important;
     padding-top: 1rem;
     padding-bottom: 1rem;
     color:var(--secondary);
