@@ -13,13 +13,13 @@ function Hero() {
             <div className="flexColstart hero-left">
                 <div className="hero-title">
                     <div className='orange-circle'></div>
-                    <h1>Indian <br />
+                    <h1>GIGA LEGO <br />
                     Construction</h1>
                 </div>
 
                 <div className="flexColStart hero-des">
-                    <span>A website dedicated to fullfill the needs of modern indian to build best</span>
-                    <span>
+                    <span className='secondaryTest'>A website dedicated to fullfill the needs of modern indian to build best</span>
+                    <span className='secondaryTest'>
                         We care about your dreams and we aim to make them true
                     </span>
                 </div>
