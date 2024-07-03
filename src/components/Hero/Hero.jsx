@@ -18,8 +18,8 @@ function Hero() {
                 </div>
 
                 <div className="flexColStart hero-des">
-                    <span className='secondaryTest'>A website dedicated to fullfill the needs of modern indian to build best</span>
-                    <span className='secondaryTest'>
+                    <span className='secondaryText'>A website dedicated to fullfill the needs of modern indian to build best</span>
+                    <span className='secondaryText'>
                         We care about your dreams and we aim to make them true
                     </span>
                 </div>
@@ -30,31 +30,33 @@ function Hero() {
                     <button className='button'>Search</button>
                 </div>
 
-                <div className="flexColCenter stats">
-                    <span>
-                        <CountUp start={8800} end={9000} duration={4}/>
-                        <span>+</span>
-                    </span>
-                    <span className='secondaryText'>Site Visits</span>
+                <div className='flexCenter stats'>
+                    <div className="flexColCenter stat">
+                        <span>
+                            <CountUp start={8800} end={9000} duration={4}/>
+                            <span>+</span>
+                        </span>
+                        <span className='secondaryText'>Site Visits</span>
 
-                </div>
+                    </div>
 
-                <div className="flexColCenter stats">
-                    <span>
-                        <CountUp start={1950} end={2000} duration={4}/>
-                        <span>+</span>
-                    </span>
-                    <span className='secondaryText'>Happy Customers</span>
+                    <div className="flexColCenter stat">
+                        <span>
+                            <CountUp start={1950} end={2000} duration={4}/>
+                            <span>+</span>
+                        </span>
+                        <span className='secondaryText'>Happy Customers</span>
 
-                </div>
+                    </div>
 
-                <div className="flexColCenter stats">
-                    <span>
-                        <CountUp start={5} end={200} duration={5}/>
-                        <span>+</span>
-                    </span>
-                    <span className='secondaryText'>Structure Constructed</span>
+                    <div className="flexColCenter stat">
+                        <span>
+                            <CountUp start={5} end={200} duration={5}/>
+                            <span>+</span>
+                        </span>
+                        <span className='secondaryText'>Structure Constructed</span>
 
+                    </div>
                 </div>
 
             </div>

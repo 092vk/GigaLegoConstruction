@@ -2,7 +2,7 @@
     color: white;
     position: relative;
     padding-bottom: 2rem;
-    background-color: var(--black);
+    /* background-color: var(--black); */
 }
 
 .hero-container{
@@ -25,6 +25,7 @@
     font-weight: 600;
     font-size: 3.8rem;
     line-height: 4rem;
+    margin-bottom: 2rem;
 }
 
 .orange-circle{
@@ -58,9 +59,14 @@
     justify-content: space-between;
 }
 
-.stats>:nth-child(1)>:last-child{
+.stat>:nth-child(1){
+    font-size: 2rem;
+}
+
+.stat>:nth-child(1)>:last-child{
     color: orange;
 }
+
 
 /* right side */
 
