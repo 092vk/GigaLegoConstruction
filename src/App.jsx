@@ -4,6 +4,10 @@ import Header from './components/Header/Header'
 import Header2 from './components/Header/Header2'
 import Hero from './components/Hero/Hero'
 import Cards from './components/Cards/Cards'
+import Value from './components/Value/Value'
+import Contact from './components/Contact/Contact'
+import Footer from './components/Footer/Footer'
+
 
 function App() {
   const [count, setCount] = useState(0)
@@ -18,6 +22,9 @@ function App() {
           <Hero/>
         </div>
         <Cards/>
+        <Value/>
+        <Contact/>
+        <Footer/>
       </div>
     </>
   )
