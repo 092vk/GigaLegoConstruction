@@ -1,0 +1,9 @@
+.h2-menu{
+    gap: 4rem;
+    font-size: 1.3rem;
+}
+
+.h-menu a:hover{
+    color: var(--orange-color);
+    transform: scale(1.2);
+}

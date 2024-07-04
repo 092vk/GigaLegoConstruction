@@ -14,7 +14,22 @@
 .h-menu{
     gap: 2rem;
 }
+.a{
+    color: white;
+    text-decoration:none;
+}
+
+.a:hover{
+    color: var(--orange-color);
+    transform: scale(1.2);
+}
+
+.h-menu a{
+    color: white;
+    text-decoration: none;
+}
 
 .h-menu>*:hover{
     cursor: pointer;
+    
 }

@@ -8,9 +8,9 @@ function Header() {
         <div className='h-container flexCenter paddings innerWidth'>
             <img src="public/logo.svg" alt="logi" width={100}/>
             <div className="flexCenter h-menu">
-                <a href="">Home</a>
-                <a href="">About Us</a>
-                <a href="">Contact Us</a>
+                <a className='a' href="">Home</a>
+                <a className='a'  href="">About Us</a>
+                <a className='a'  href="">Contact Us</a>
                 <button className="button">
                     <a href="">SignIn</a>
                 </button>
