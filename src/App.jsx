@@ -1,31 +1,29 @@
-import { useState } from 'react'
+import { useState,Suspense } from 'react'
 import './App.css'
-import Header from './components/Header/Header'
-import Header2 from './components/Header/Header2'
-import Hero from './components/Hero/Hero'
-import Cards from './components/Cards/Cards'
-import Value from './components/Value/Value'
-import Contact from './components/Contact/Contact'
-import Footer from './components/Footer/Footer'
-
+import Home from './pages/Home'
+import { BrowserRouter,Routes,Route} from 'react-router-dom'
+import Layout from './components/Layout/Layout'
+import Services from './pages/Services/Services'
+import ContactUs from './pages/ContactUs/ContactUs'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-      <div className='App'>
-        <div>
-          <div className='white-gradient'/>
-          <Header/>
-          <Header2/>
-          <Hero/>
-        </div>
-        <Cards/>
-        <Value/>
-        <Contact/>
-        <Footer/>
-      </div>
+      <BrowserRouter>
+        <Suspense fallback={<div>Loading...</div>}> 
+        {/* thing that is shown when the page is still loading  */}
+          <Routes>
+            <Route element={<Layout/>}>
+              <Route path='/' element={<Home/>}/>
+              <Route path='/Services' element={<Services/>}/>
+              <Route path='/ContactUs' element={<ContactUs/>}/>
+            </Route>
+          </Routes>
+        </Suspense>
+      </BrowserRouter>
+      
     </>
   )
 }
