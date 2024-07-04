@@ -63,7 +63,7 @@ function Hero() {
 
             <div className="flexCenter hero-right">
                 <div className="image-container">
-                    <img src="public/HeroImage.jpg" alt="" />
+                    <img src="./contact.jpg" alt="" />
                 </div>
             </div>
         </div>
