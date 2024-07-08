@@ -12,12 +12,15 @@ import Architectural from './pages/Architectural/Architectural'
 import Civil from './pages/Civil/Civil'
 import BIM from './pages/BIM/BIM'
 import Teams from './pages/Teams/Teams'
+import { MantineProvider } from '@mantine/core'
+
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
+      <MantineProvider>
       <BrowserRouter>
         <Suspense fallback={<div>Loading...</div>}> 
         {/* thing that is shown when the page is still loading  */}
@@ -42,7 +45,7 @@ function App() {
           </Routes>
         </Suspense>
       </BrowserRouter>
-      
+      </MantineProvider>
     </>
   )
 }

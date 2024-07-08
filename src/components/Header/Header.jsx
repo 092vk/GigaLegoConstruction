@@ -2,7 +2,7 @@ import React from 'react'
 import './Header.css'
 import { BrowserRouter as Router, Route, Routes, Link ,NavLink} from 'react-router-dom';
 import { useAuth0 } from "@auth0/auth0-react";
-
+import ProfileMenu from '../ProfileMenu/ProfileMenu';
 function Header() {
     const { loginWithRedirect, isAuthenticated, user, logout } = useAuth0();
 
@@ -28,9 +28,14 @@ function Header() {
                     <a href="">SignIn</a>
                 </button> */}
 
-                <button className="button" onClick={loginWithRedirect}>
-                    Login
-                </button>
+               {/* login button */}
+            {!isAuthenticated ? (
+              <button className="button" onClick={loginWithRedirect}>
+                Login
+              </button>
+            ) : (
+              <ProfileMenu user={user} logout={logout} />
+            )}
 
             </div>
         </div>

@@ -1,9 +1,20 @@
 import React from 'react'
+import './AboutUs.css'
 
 function AboutUs() {
   return (
-    <div>AboutUs
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione illum voluptas ducimus porro harum rerum repellat explicabo mollitia amet ipsa blanditiis esse libero non exercitationem, unde cupiditate accusamus vel quidem aut quos inventore perspiciatis! Explicabo facere reiciendis officia voluptatem ex quis id nobis impedit quae. Aliquam vero architecto, nam modi quisquam iste excepturi. Officiis assumenda possimus molestias nulla omnis quaerat, id cupiditate facilis velit doloribus dignissimos deserunt ipsa nemo sequi, placeat quas soluta labore corporis laborum nostrum, esse voluptatibus eum exercitationem explicabo! Dicta ipsa nisi veniam? Magni tempora ea earum hic omnis quia quasi, eius excepturi alias obcaecati, illum culpa!</p>
+    <div className='info'>AboutUs
+        <p>We are a construction company based out of Jammu 
+
+          <br />
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, nihil.
+
+
+          <br />
+          eksndsndslk
+          askanslan
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, enim.
+        </p>
     </div>
   )
 }
