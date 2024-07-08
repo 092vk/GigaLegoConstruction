@@ -6,6 +6,12 @@ import Home from './pages/Home'
 import AboutUs from './pages/AboutUs/AboutUs'
 import Services from './pages/Services/Services'
 import ContactUs from './pages/ContactUs/ContactUs'
+import Market from './pages/Market/Market'
+import Career from './pages/Career/Career'
+import Architectural from './pages/Architectural/Architectural'
+import Civil from './pages/Civil/Civil'
+import BIM from './pages/BIM/BIM'
+import Teams from './pages/Teams/Teams'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -21,14 +27,16 @@ function App() {
               <Route path='/Services' element={<Services/>}/>
               <Route path='/ContactUs' element={<ContactUs/>}/>
 
-              <Route path='/AboutUs' element={<ContactUs/>}/>
+              <Route path='/AboutUs' element={<AboutUs/>}/>
 
 
-              <Route path='/Market' element={<ContactUs/>}/>
-              <Route path='/Career' element={<ContactUs/>}/>
-              <Route path='/Architectural' element={<ContactUs/>}/>
-              <Route path='/Civil' element={<ContactUs/>}/>
-              <Route path='/BIM' element={<ContactUs/>}/>
+              <Route path='/Market' element={<Market/>}/>
+              <Route path='/Career' element={<Career/>}/>
+              <Route path='/Architectural' element={<Architectural/>}/>
+              <Route path='/Civil' element={<Civil/>}/>
+              <Route path='/BIM' element={<BIM/>}/>
+
+              <Route path='/Teams' element={<Teams/>}/>
 
             </Route>
           </Routes>
