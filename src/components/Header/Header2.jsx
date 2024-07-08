@@ -1,6 +1,8 @@
 import React from 'react'
 import './Header.css'
 import './Header2.css'
+import { BrowserRouter as Router, Route, Routes, Link ,NavLink} from 'react-router-dom';
+
 
 function Header() {
   return (
@@ -8,12 +10,14 @@ function Header() {
         <div className='h-container paddings innerWidth'>
             
             <div className="flexCenter h-menu h2-menu">
-                <a href="">Services</a>
-                <a href="">Market</a>
-                <a href="">Career</a>
-                <a href="">Architectural</a>
-                <a href="">Civil</a>
-                <a href="">BIM</a>
+
+                <NavLink to={'/Teams'}>Teams</NavLink>
+                <NavLink to={'/Market'}>Market</NavLink>
+                <NavLink to={'/Career'}>Career</NavLink>
+                <NavLink to={'/Architectural'}>Architectural</NavLink>
+                <NavLink to={'/Civil'}>Civil</NavLink>
+                <NavLink to={'/BIM'}>BIM</NavLink>
+
             </div>
         </div>
     </section>

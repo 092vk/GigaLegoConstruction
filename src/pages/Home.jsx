@@ -11,7 +11,6 @@ function Home() {
     <div className='App'>
         <div>
           <div className='white-gradient'/>
-          <Header2/>
           <Hero/>
         </div>
         <Cards/>
