@@ -10,9 +10,9 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     domain="dev-k47zqbr8ropt45i3.us.auth0.com" 
     clientId='0lpba1reWoESZXsvJeFgQhqrZLjIWsQJ'
     authorizationParams={{
-      redirect_uri:"http://localhost:5173/"
+      redirect_uri:"https://gigalegoconstruction.netlify.app/"
     }}
-    audience="http://localhost:8000"
+    audience="https://gigalegoconstruction.netlify.app/"
     scope="openid profile email"
     >
       <App />
