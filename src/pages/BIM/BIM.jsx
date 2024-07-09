@@ -1,11 +1,12 @@
 import React from 'react'
 import './BIM.css'
+import BHome from './BHome'
 
 function BIM() {
   return (
     <div className='BIM-wrapper'>
-      <h1>BIM</h1>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus aperiam placeat, consequuntur hic dicta pariatur quam numquam dolorum blanditiis incidunt error eveniet amet autem aspernatur, earum doloribus consectetur rem explicabo?</p>
+      <h1>BIM Page</h1>
+      <BHome/>
     </div>
   )
 }

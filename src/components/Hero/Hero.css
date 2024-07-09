@@ -1,7 +1,7 @@
 .hero-wrapper{
     color: white;
     position: relative;
-    padding-bottom: 2rem;
+    padding-bottom: 6rem;
     /* background-color: var(--black); */
 }
 
@@ -31,7 +31,7 @@
 .orange-circle{
     height: 4rem;
     width: 4rem;
-    background-color: var(--orange-color);
+    background-color: rgb(241, 190, 190);
     border-radius: 999px;
     position: absolute;
     right: 68%;
@@ -75,7 +75,7 @@
     height: 35rem;
     overflow: hidden;
     border-radius: 15rem 15rem 0 0;
-    border: 8px solid rgba(255, 255,255,0.12 );
+    border: 8px solid rgba(229, 233, 34, 0.12);
 }
 
 .image-container>img{
