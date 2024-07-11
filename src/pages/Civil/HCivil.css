@@ -1,0 +1,68 @@
+.buttonW > div button {
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    border-radius: 8px;
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+    width: 15rem;
+}
+
+.buttonW > div button:hover {
+    background-color: #45a049; /* Darker green on hover */
+    color: white;
+}
+
+/* Adjust individual button styles */
+.buttonW > div:nth-child(1) button {
+    background-color: #1abc9c; /* Turquoise */
+}
+
+.buttonW > div:nth-child(2) button {
+    background-color: #3498db; /* Blue */
+}
+
+.buttonW > div:nth-child(3) button {
+    background-color: #e74c3c; /* Red */
+}
+
+.buttonW > div:nth-child(4) button {
+    background-color: #9b59b6; /* Purple */
+}
+
+.buttonW > div:nth-child(5) button {
+    background-color: #f39c12; /* Orange */
+}
+
+.buttonW > div:nth-child(6) button {
+    background-color: #2ecc71; /* Emerald */
+}
+
+.buttonW > div:nth-child(7) button {
+    background-color: #34495e; /* Dark Slate */
+}
+
+.buttonW > div:nth-child(8) button {
+    background-color: #e67e22; /* Carrot */
+}
+
+.buttonW > div:nth-child(9) button {
+    background-color: #16a085; /* Green Sea */
+}
+
+.buttonW > div:nth-child(10) button {
+    background-color: #c0392b; /* Pomegranate */
+}
+
+.buttonW > div:nth-child(11) button {
+    background-color: #2980b9; /* Belize Hole */
+}
+
+

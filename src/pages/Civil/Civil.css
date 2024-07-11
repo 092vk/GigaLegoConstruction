@@ -1,4 +1,15 @@
 .civil-wrapper{
-    background-color: white;
     color: black;
+    background-color: white;
 }
+
+.civilHero{
+    font-size: 2rem;
+    display: block;
+    position: relative;
+    left: 20%;
+
+}
+
+
+

@@ -1,0 +1,80 @@
+/* DropdownBox.css */
+.dropdown-container {
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; /* Align items to the start of the container */
+    justify-content: center; */
+  }
+  
+  @media (min-width: 992px) {
+    /* Media query for desktops */
+    .dropdown-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    }
+  }
+  
+
+  .dropdown-box {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background: #f9f9f9;
+    width: 90%; /* Adjust width for mobile */
+    max-width: 300px; /* Maximum width */
+    cursor: pointer; /* Add pointer cursor for interaction */
+
+  }
+  
+  .dropdown-box p {
+    margin-bottom: 5px;
+  }
+  
+  .dropdown-box button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+  }
+  
+  .dropdown-info {
+    margin-top: 10px; /* Space between the two boxes */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background: #d68a8a;
+    width: 90%; /* Adjust width for mobile */
+    max-width: 300px; /* Maximum width */
+    display: inline-block;
+    position: relative;
+    /* right: 8rem; */
+
+
+  }
+  
+  @media (min-width: 768px) {
+    /* Media query for tablets and larger devices */
+    .dropdown-container {
+      flex-direction: row; /* Arrange boxes side by side */
+      justify-content: space-between; /* Space between boxes */
+      align-items: center; /* Align items vertically */
+    }
+  
+    .dropdown-box,
+    .dropdown-info {
+      width: 40%; /* Adjust width for tablets */
+    }
+  }
+  
+  @media (min-width: 992px) {
+    /* Media query for desktops */
+    .dropdown-box,
+    .dropdown-info {
+      width: 30%; /* Adjust width for desktops */
+    }
+  }
+  

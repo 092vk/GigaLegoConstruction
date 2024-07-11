@@ -1,6 +1,10 @@
 .h2-menu{
     gap: 4rem;
     font-size: 1.3rem;
+    /* position: fixed; */
+    /* z-index: 100;
+    width: 100%;
+    top: 5rem; */
 }
 
 .h-menu a:hover{

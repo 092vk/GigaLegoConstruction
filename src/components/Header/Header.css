@@ -1,13 +1,18 @@
 .h-wrapper{
     background:var(--black);
     /* color: white; */
-}
+    /* position: fixed;
+    z-index: 100;
+    width: 100%;
+    top: 0;
+} */
 
 .h-container{
     justify-content:space-between !important;
     padding-top: 1rem;
     padding-bottom: 1rem;
     color:var(--secondary);
+    
 }
 
 
@@ -33,3 +38,12 @@
     cursor: pointer;
     
 }
+
+.MenuDropdown {
+    background-color: red !important; /* Temporary color for visibility */
+  }
+  
+  .MenuItem {
+    background-color: blue !important; /* Temporary color for visibility */
+  }
+  

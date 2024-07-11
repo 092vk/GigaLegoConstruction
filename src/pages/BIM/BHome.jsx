@@ -1,6 +1,7 @@
 // MainPage.js
 import React, { useState } from 'react';
 import DropdownBox from './DropdownBox';
+import '../Civil/HCivil.css'
 
 function MainPage() {
   const [activeDropdown, setActiveDropdown] = useState(null);
@@ -10,7 +11,8 @@ function MainPage() {
   };
 
   return (
-    <div style={{ padding: '20px' }}>
+    <div style={{ padding: '20px' }}
+    className='buttonW'>
       <div style={{ marginBottom: '10px' }}>
         <button onClick={() => handleButtonClick(0)}>BIM For Infrastructure</button>
         {activeDropdown === 0 && <DropdownBox />}

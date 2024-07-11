@@ -21,12 +21,18 @@
 
 import React from 'react';
 import AHome from './AHome';
+import './Architectural.css'
 
 function App() {
   return (
-    <div>
+    <div className='arch-wrapper'>
+      <div className="archHero">
       <h1>Architectural Page</h1>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima, quaerat!</p>
+      </div>
+      
       <AHome />
+      
     </div>
   );
 }

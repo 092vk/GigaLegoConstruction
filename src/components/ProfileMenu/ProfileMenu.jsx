@@ -11,6 +11,13 @@ const ProfileMenu = ({user, logout}) => {
             <Menu.Item>
                 Favourites
             </Menu.Item>
+
+            <Menu.Item onClick={()=>{
+              localStorage.clear()
+              logout();
+            }}>
+              LogOut
+            </Menu.Item>
         </Menu.Dropdown>
     </Menu>
   )

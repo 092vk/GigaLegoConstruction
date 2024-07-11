@@ -1,6 +1,7 @@
 // MainPage.js
 import React, { useState } from 'react';
 import DropdownBox from './DropdownBox';
+import './HCivil.css'
 
 function MainPage() {
   const [activeDropdown, setActiveDropdown] = useState(null);
@@ -10,8 +11,8 @@ function MainPage() {
   };
 
   return (
-    <div style={{ padding: '20px' }}>
-      <div style={{ marginBottom: '10px' }}>
+    <div style={{ padding: '20px' }} className='buttonW'>
+      <div style={{ marginBottom: '10px' }} >
         <button onClick={() => handleButtonClick(0)}>Construction Drawings</button>
         {activeDropdown === 0 && <DropdownBox info='this is a Construction Drawing'/>}
       </div>

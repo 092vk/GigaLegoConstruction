@@ -1,3 +1,40 @@
 .services{
     color: white;
+   
+
+}
+
+.services-hero{
+    background-image: url(../../../public/pexels.jpg)!important;
+    background-size: cover;
+    z-index: 100;
+    opacity: 0.8;
+    width: 100vw;
+    height: 100vh;
+    /* position: fixed; */
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.services-hero{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.services-hero h1{
+    padding: 5rem;
+    font-size: 5rem;
+    font-weight: 500;
+    color: #020202;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    
+}
+
+.services-hero p{
+    font-size: 3rem;
+    color: black;
+    font-weight: 500;
 }
