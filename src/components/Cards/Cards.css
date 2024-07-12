@@ -9,6 +9,9 @@
 
 .r-head {
     margin-bottom: 2rem;
+    border-left: 7px solid rgb(98, 98, 133);
+    padding-left: 20px;
+    margin-left: 5px;
 }
 
 .r-card {
@@ -19,11 +22,14 @@
     max-width: max-content;
     margin: auto;
     transition: all 300ms ease-in;
+    background-color: #d5d5d6;
 }
 
 .r-card > img {
     width: 100%;
     max-width: 15rem;
+    border: 2px solid rgb(132, 131, 131);
+    border-radius: 10px;
 }
 
 .r-card > :nth-child(2) {
