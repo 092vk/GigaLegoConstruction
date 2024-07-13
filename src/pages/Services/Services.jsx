@@ -13,7 +13,10 @@ function Services() {
         
         
 
+      <div className='cardContainer'>
         <Cards data={dataS}/>
+      </div>
+      <div className='serviceEndLine'> Trust GigaLego Construction for all your real estate and <br/>architectural consultancy needs.</div>
     </div>
   )
 }

@@ -1,40 +1,98 @@
-.services{
-    color: white;
-   
-
-}
-
-.services-hero{
-    background-image: url(../../../public/pexels.jpg)!important;
+.services {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #eaf2f8; 
+    background: url(../../../public/services.png);
     background-size: cover;
-    z-index: 100;
-    opacity: 0.8;
-    width: 100vw;
-    height: 100vh;
-    /* position: fixed; */
+    background-position: center;
     background-repeat: no-repeat;
-    position: relative;
+    min-height: 100vh;
 }
-
-.services-hero{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-
+  
+/* Hero Section Styles */
+.services-hero {
+    margin-bottom: 40px;
+    color: #000;
 }
-
-.services-hero h1{
-    padding: 5rem;
-    font-size: 5rem;
-    font-weight: 500;
-    color: #020202;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
-    
-}
-
-.services-hero p{
+  
+.services-hero h1 {
     font-size: 3rem;
-    color: black;
-    font-weight: 500;
+    font-weight: bold;
+    color: rgb(21, 68, 139);
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+  
+.services-hero p {
+    font-size: 1.2rem;
+    color: #424242;
+    margin-bottom: 20px;
+}
+  
+/* Cards Container Box */
+.cards-container {
+    background-color: #060505;
+    border: 1px solid #0d47a1;
+    border-radius: 10px;
+    padding: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    max-width: 1200px;
+}
+  
+/* Cards Container Styles */
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    background-color: #000;
+}
+  
+/* Card Styles */
+.card {
+    background-color: #ffffff;
+    border: 1px solid #0d47a1;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.2s ease-in-out;
+}
+
+.cardContainer {
+    /* background: url(../../../public/services.png); */
+    border-radius: 12px;
+    background-color: #e9e6e6;
+    border: 2px solid rgb(143, 142, 142);
+    /* box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.1); */
+}
+  
+.card:hover {
+    transform: translateY(-10px);
+}
+  
+.card img {
+    width: 100%;
+    height: auto;
+}
+  
+.card-content {
+    padding: 20px;
+    color: #000;
+}
+  
+.card-title {
+    font-size: 1.5rem;
+    color: #0d47a1;
+    margin-bottom: 10px;
+}
+  
+.card-description {
+    font-size: 1rem;
+    color: #424242;
+}
+
+.serviceEndLine{
+    font-size: 2.5rem;
+    padding: 5rem 1rem 3rem;
 }
