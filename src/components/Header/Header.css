@@ -7,43 +7,27 @@
     top: 0;*/
 } 
 
-.h-container{
-    justify-content:space-between !important;
+.h-container {
+    justify-content: space-between !important;
     padding-top: 1rem;
     padding-bottom: 1rem;
-    color:var(--secondary);
-    
+    color: var(--secondary);
 }
 
-
-.h-menu{
+.h-menu {
     gap: 2rem;
 }
-.a{
-    color: white;
-    text-decoration:none;
-}
 
-.a:hover{
-    color: var(--orange-color);
-    transform: scale(1.2);
-}
-
-.h-menu a{
+.h-menu a {
     color: white;
     text-decoration: none;
 }
 
-.h-menu>*:hover{
-    cursor: pointer;
-    
+.h-menu a:hover {
+    color: var(--orange-color);
+    transform: scale(1.2);
 }
 
-.MenuDropdown {
-    background-color: red !important; /* Temporary color for visibility */
-  }
-  
-  .MenuItem {
-    background-color: blue !important; /* Temporary color for visibility */
-  }
-  
+.h-menu>*:hover {
+    cursor: pointer;
+}

@@ -15,6 +15,12 @@ import Teams from './pages/Teams/Teams'
 import { MantineProvider } from '@mantine/core'
 
 
+
+// importing from pages2 
+import CadConversion from './pages2/Architectural/CadConversion/CadConversion'
+
+
+
 function App() {
   const [count, setCount] = useState(0)
 
@@ -40,6 +46,49 @@ function App() {
               <Route path='/BIM' element={<BIM/>}/>
 
               <Route path='/Teams' element={<Teams/>}/>
+
+
+
+
+
+
+        <Route path="/Teams/SubTeam1" element={<Teams/>} />
+        <Route path="/Teams/SubTeam2" element={<Teams/>} />
+        <Route path="/Teams/SubTeam3" element={<Teams/>} />
+
+        <Route path="/Market/Option1" element={<Market/>} />
+        <Route path="/Market/Option2" element={<Market/>} />
+        <Route path="/Market/Option3" element={<Market/>} />
+
+
+        <Route path="/Architectural/RevitServices" element={<Architectural/>} />
+        <Route path="/Architectural/CadConversion" element={<CadConversion/>} />
+        <Route path="/Architectural/FloorPlanConversion" element={<Architectural/>} />
+        <Route path="/Architectural/PresentationDrawings" element={<Architectural/>} />
+        <Route path="/Architectural/2DDrafting" element={<Architectural/>} />
+        <Route path="/Architectural/3DModeling" element={<Architectural/>} />
+        <Route path="/Architectural/3DWalkThroughAnimation" element={<Architectural/>} />
+        <Route path="/Architectural/GlassShopDrawings" element={<Architectural/>} />
+
+        <Route path="/Civil/ConstructionDrawings" element={<Civil/>} />
+        <Route path="/Civil/GeospatialServices" element={<Civil/>} />
+        <Route path="/Civil/ConstructionCostEstimation" element={<Civil/>} />
+        <Route path="/Civil/DrainageSewarageDesign" element={<Civil/>} />
+        <Route path="/Civil/StructuralDesignDrafting" element={<Civil/>} />
+        <Route path="/Civil/StructuralSteelDetailing" element={<Civil/>} />
+        <Route path="/Civil/FabricationDrawing" element={<Civil/>} />
+        <Route path="/Civil/VolumetricEstimation" element={<Civil/>} />
+        <Route path="/Civil/ProjectProcessManagement" element={<Civil/>} />
+        <Route path="/Civil/ConstructionInspection" element={<Civil/>} />
+
+        <Route path="/BIM/BIMForInfrastructure" element={<BIM/>} />
+        <Route path="/BIM/ScanToBIM" element={<BIM/>} />
+        <Route path="/BIM/ShopDrawingExtraction" element={<BIM/>} />
+        <Route path="/BIM/BIMModeling" element={<BIM/>} />
+        <Route path="/BIM/RevitFamilyCreation" element={<BIM/>} />
+        <Route path="/BIM/BIMCoordination" element={<BIM/>} />
+        <Route path="/BIM/ClashDetection" element={<BIM/>} />
+        <Route path="/BIM/LeanConstruction" element={<BIM/>} />
 
             </Route>
           </Routes>
