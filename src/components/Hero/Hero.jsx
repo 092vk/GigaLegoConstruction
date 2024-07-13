@@ -61,11 +61,11 @@ function Hero() {
 
             </div>
 
-            <div className="flexCenter hero-right">
+            {/* <div className="flexCenter hero-right">
                 <div className="image-container">
                     <img src="./HeroImage.jpg" alt="" />
                 </div>
-            </div>
+            </div> */}
         </div>
     </section>
   )
