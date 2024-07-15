@@ -1,11 +1,66 @@
+
 .FloorPlanConversion{
-    background-color: black;
+    /* background-color: black; */
+    background: url(../../../../public/Add\ a\ heading.png);
     color: white;
+    padding-bottom: 2.5rem;
+    margin: 3rem;
+    border: 1px solid white;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .head1{
     color: white;
+    text-align: center;
+    font-size: 2.5rem;
+    margin: 2rem;
+    padding: 4rem 1rem 1.7rem;
 }
+
+.content{
+    margin: 0 12rem;
+}
+
+@media (max-width: 1200px) {
+    .content {
+      margin: 0 5rem;
+    }
+  }
+  
+  @media (max-width: 992px) {
+    .content {
+      margin: 0 ;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .content {
+      margin: 0 ;
+    }
+  }
+
+.head2{
+    font-size: 1.5rem;
+    margin: 1rem 1rem 1rem 5.7rem;
+    color: rgb(209, 117, 74);
+
+}
+
+h2 {
+  font-size: 1.6rem;
+  margin: 2rem 3rem 2rem 4rem;
+  padding: 0.5rem;
+  padding-left: 1.5rem;
+  color: rgb(79, 160, 214);
+  cursor: pointer;
+  border: 2px solid rgb(79, 160, 214);
+  border-left: 8px solid rgb(79, 160, 214);
+}
+
+
 .p1{
     color: white;
+    margin: 0 4rem 2.5rem 5.7rem;
+    font-size: 1.1rem;
 }
