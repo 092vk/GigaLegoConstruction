@@ -1,17 +1,82 @@
-import React from 'react'
-import './ConstructionInspection.css'
-
+import React, { useState } from 'react';
+import './ConstructionInspection.css';
 
 function ConstructionInspection() {
+  const [visibleSection, setVisibleSection] = useState(null);
+
+  const toggleSection = (section) => {
+    setVisibleSection(visibleSection === section ? null : section);
+  };
+
   return (
-    <div className='ConstructionInspection'>
+    <div className='FloorPlanConversion'>
 
-        <h1 className='head1'>This is Construction Inspection page </h1>
-        <p className='p1'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni expedita in, unde nam reprehenderit quod obcaecati error veritatis placeat, molestias nobis deleniti est labore voluptas ex molestiae consequuntur. Quae excepturi nisi enim, recusandae eaque doloremque, aliquam iste libero neque quibusdam ad? Ipsa numquam qui cumque officia, facere quas soluta iste libero aliquid veritatis esse aut illo accusamus suscipit repellendus, ut sapiente deleniti voluptatibus tenetur sint eligendi non tempore dolorum! Similique, officia nesciunt pariatur aliquid labore doloribus assumenda consectetur blanditiis, error qui nam vitae voluptates sequi quasi dolor fugit modi id debitis et magni, explicabo at nihil aperiam repudiandae! Est, illum.</p>
+      <h1 className='head1'>Construction Inspection Services by GigaLego Construction</h1>
 
+      <div className='content'>
+        <h2 onClick={() => toggleSection('section1')}>Ensuring Quality and Compliance at Every Stage</h2>
+        {visibleSection === 'section1' && (
+          <div className='p1'>
+            GigaLego Construction offers thorough construction inspection services to ensure your projects meet the highest standards of quality and compliance. Our expert inspectors provide detailed assessments and reports to help you identify issues early and maintain project integrity.
+          </div>
+        )}
 
+        <h2 onClick={() => toggleSection('section2')}>Our Construction Inspection Services</h2>
+        {visibleSection === 'section2' && (
+          <>
+            <div className='head2'>Pre-Construction Inspections</div>
+            <div className='p1'>
+              Conduct site assessments and review plans to ensure all pre-construction requirements are met. Identify potential issues and recommend corrective actions before construction begins.</div>
+
+            <div className='head2'>Ongoing Construction Inspections</div>
+            <div className='p1'>
+              Perform regular inspections throughout the construction process to monitor progress and ensure adherence to design specifications, building codes, and safety regulations. Provide detailed reports and actionable feedback.</div>
+
+            <div className='head2'>Final Inspections</div>
+            <div className='p1'>
+              Conduct comprehensive final inspections to verify that all construction work meets specified standards and requirements. Ensure all issues are addressed before project completion and handover.</div>
+
+            <div className='head2'>Specialized Inspections</div>
+            <div className='p1'>
+              Offer specialized inspections for specific aspects of construction, such as electrical systems, plumbing, HVAC, and structural elements. Ensure all components meet relevant standards and regulations.
+            </div>
+          </>
+        )}
+
+        <h2 onClick={() => toggleSection('section3')}>Why Choose Us?</h2>
+        {visibleSection === 'section3' && (
+          <>
+            <div className='head2'>Expertise</div>
+            <div className='p1'>
+              Certified inspectors with extensive experience in various aspects of construction.</div>
+
+            <div className='head2'>Thoroughness</div>
+            <div className='p1'>
+              Detailed inspections and comprehensive reports to identify and address issues early.</div>
+
+            <div className='head2'>Compliance</div>
+            <div className='p1'>
+              Ensure all construction work meets relevant codes, standards, and regulations.
+            </div>
+          </>
+        )}
+
+        <h2 onClick={() => toggleSection('section4')}>Pricing and Consultation</h2>
+        {visibleSection === 'section4' && (
+          <div className='p1'>
+            Customized Quotes: Contact us for personalized pricing based on project scope and specific requirements.
+          </div>
+        )}
+
+        <h2 onClick={() => toggleSection('section5')}>Get Started Today!</h2>
+        {visibleSection === 'section5' && (
+          <div className='p1'>
+            Ready to ensure your construction projects meet the highest standards of quality and compliance? Contact us now to discuss your specific needs, request a consultation, or learn more about our construction inspection services.
+          </div>
+        )}
+      </div>
     </div>
-  )
+  );
 }
 
-export default ConstructionInspection
+export default ConstructionInspection;

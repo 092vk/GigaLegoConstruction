@@ -39,7 +39,7 @@ function ContactUs() {
 
   return (
     <div className='ContactUs'>
-      <h1>Contact Us</h1>
+      <h1>CONTACT US @ GIGA LEGO</h1>
       <form className='emailForm' onSubmit={handleSubmit}>
         <input
           type='text'
@@ -59,7 +59,7 @@ function ContactUs() {
 
         <textarea
           cols='30'
-          rows='10' // Adjusted rows for better visibility
+          rows='7' // Adjusted rows for better visibility
           placeholder='Your Message'
           value={message}
           onChange={(e) => setMessage(e.target.value)}

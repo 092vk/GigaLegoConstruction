@@ -67,7 +67,7 @@ function ContactUs() {
 
         <textarea
           cols='30'
-          rows='10' // Adjusted rows for better visibility
+          rows='8' // Adjusted rows for better visibility
           placeholder='Your Message'
           value={message}
           onChange={(e) => setMessage(e.target.value)}
