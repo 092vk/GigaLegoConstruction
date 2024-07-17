@@ -1,10 +1,15 @@
 import React from 'react'
 import './Header.css'
 import { BrowserRouter as Router, Route, Routes, Link ,NavLink} from 'react-router-dom';
-import { useAuth0 } from "@auth0/auth0-react";
+// import { useAuth0 } from "@auth0/auth0-react";
 import ProfileMenu from '../ProfileMenu/ProfileMenu';
 function Header() {
-    const { loginWithRedirect, isAuthenticated, user, logout } = useAuth0();
+    // const { loginWithRedirect, isAuthenticated, user, logout } = useAuth0();
+
+
+    
+
+    const isAuthenticated = false;
 
   return (
     <section className='h-wrapper'>
@@ -29,13 +34,26 @@ function Header() {
                 </button> */}
 
                {/* login button */}
-            {!isAuthenticated ? (
+            {/* {!isAuthenticated ? (
               <button className="button" onClick={loginWithRedirect}>
                 Login
               </button>
             ) : (
               <ProfileMenu user={user} logout={logout} />
+            )} */}
+
+
+
+            {!isAuthenticated ? (
+              <>
+              <button className="button"><Link to={'/login'}>Login</Link></button>
+              <button className="button"><Link to={'/register'}>Register</Link></button>
+              </>
+            ) : (
+              <button className='button'>Logout</button>
             )}
+              
+              
 
             </div>
         </div>
