@@ -8,7 +8,22 @@
 
 .v-right{
     gap: 0.5rem;
+    
 }
+
+/* .v-right>span{
+    margin-bottom: 2rem;
+    border-left: 7px solid rgb(98, 98, 133);
+    padding-left: 20px;
+    margin-left: 5px;
+} */
+/* .solidLine{
+    margin-bottom: 2rem;
+    border-left: 7px solid rgb(98, 98, 133);
+    padding-left: 20px;
+    margin-left: 5px;
+} */
+
 
 .accordion{
     margin-top:2rem;

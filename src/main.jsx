@@ -2,11 +2,11 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import './index.css'
-import { Auth0Provider } from '@auth0/auth0-react'
+// import { Auth0Provider } from '@auth0/auth0-react'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <Auth0Provider
+    {/* <Auth0Provider
     domain="dev-k47zqbr8ropt45i3.us.auth0.com" 
     clientId='0lpba1reWoESZXsvJeFgQhqrZLjIWsQJ'
     authorizationParams={{
@@ -15,7 +15,8 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     audience="https://gigalegoconstruction.netlify.app/"
     scope="openid profile email"
     >
-      <App />
-    </Auth0Provider>
+      
+    </Auth0Provider> */}
+    <App />
   </React.StrictMode>,
 )

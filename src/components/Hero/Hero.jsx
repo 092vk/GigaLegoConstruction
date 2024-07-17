@@ -2,7 +2,6 @@ import React from 'react'
 import './Hero.css'
 import {HiLocationMarker} from 'react-icons/hi'
 import CountUp from 'react-countup'
-import { useEffect,useRef } from 'react'
 
 
 function Hero() {

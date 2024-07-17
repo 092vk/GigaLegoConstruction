@@ -48,6 +48,11 @@ import BIMModelling from './pages2/BIM/BIMModelling/BIMModelling'
 import BIMCoordination from './pages2/BIM/BIMCoordination/BIMCoordination'
 import LeanConstruction from './pages2/BIM/LeanConstruction/LeanConstruction'
 
+//auth
+
+import Login from './components/auth/Login'
+import Register from './components/auth/Register'
+
 
 function App() {
   const [count, setCount] = useState(0)
@@ -59,12 +64,22 @@ function App() {
         <Suspense fallback={<div>Loading...</div>}> 
         {/* thing that is shown when the page is still loading  */}
           <Routes>
+
+            {/* auth */}
+            <Route path='/login' element={<Login/>}/>
+            <Route path='/register' element={<Register/>}/>
+
+            
             <Route element={<Layout/>}>
+
               <Route path='/' element={<Home/>}/>
               <Route path='/Services' element={<Services/>}/>
               <Route path='/ContactUs' element={<ContactUs/>}/>
 
               <Route path='/AboutUs' element={<AboutUs/>}/>
+
+
+            
 
 
               <Route path='/Market' element={<Market/>}/>

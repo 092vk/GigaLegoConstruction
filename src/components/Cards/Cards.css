@@ -22,7 +22,7 @@
     max-width: max-content;
     margin: auto;
     transition: all 300ms ease-in;
-    background-color: #d5d5d6;
+    background-color:rgb(86, 217, 235);
 }
 
 .r-card > img {
@@ -54,7 +54,7 @@
     background: linear-gradient(
         180deg,
         rgba(255, 255, 255, 0) 0%,
-        rgba(136, 160, 255, 0.46) 100%
+        rgba(106, 134, 245, 0.46) 100%
     );
     box-shadow: 0px 72px 49px -51px rgba(136, 160, 255, 0.21);
 }
@@ -85,6 +85,7 @@
 }
 
 .r-buttons>:nth-child(1){
+    
     background-color: #EEEEFF;
     box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.25);
 }
