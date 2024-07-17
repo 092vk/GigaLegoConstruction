@@ -1,0 +1,19 @@
+
+[
+    {
+      "image": "../../../../public/r1.png",
+      "name": "Card 1",
+      "info": "Information about Card 1."
+    },
+    {
+      "image": "../../../../public/r2.png",
+      "name": "Card 2",
+      "info": "Information about Card 2."
+    },
+    {
+      "image": "../../../../public/r3.png",
+      "name": "Card 3",
+      "info": "Information about Card 3."
+    }
+  ]
+  

@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import './RevitServices.css';
+import Slider from '../../../components/slider/Slider'
+import data from '../../../utils/data/data1.json'
 
 function RevitServices() {
   const [visibleSection, setVisibleSection] = useState(null);
@@ -10,7 +12,12 @@ function RevitServices() {
 
   return (
     <div className='FloorPlanConversion'>
-      <h1 className='head1'>Revit Services by GigaLego Construction</h1>
+
+      <div className='s'>
+        <h1 className='head1'>Revit Services by GigaLego Construction</h1>
+        <Slider cardsData={data} />
+      </div>
+      
 
       <div className='content'>
         <h2 onClick={() => toggleSection('section1')}>Enhance Your Designs with Revit Expertise</h2>

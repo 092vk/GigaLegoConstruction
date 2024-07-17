@@ -1,0 +1,115 @@
+/* Slider.css */
+
+.slider-wrapper {
+  width: 80%;
+  padding-top: 5rem;
+  padding-bottom: 10rem;
+  margin: auto;
+
+}
+
+.slider-wrapper .slick-slider {
+  position: relative;
+  display: block;
+  box-sizing: border-box;
+  
+}
+
+.slider-wrapper .slick-list {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  
+}
+
+.slider-wrapper .slick-slide {
+  float: left;
+  min-height: 1px;
+  display: block;
+  padding-left: 25px;
+}
+
+.slider-wrapper .slick-slide img {
+  width: 80%;
+  height: auto;
+  border-radius: 8px;
+  
+}
+
+.slider-wrapper .slick-prev,
+.slider-wrapper .slick-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 30px;
+  height: 30px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.slider-wrapper .slick-prev {
+  left: 10px;
+}
+
+.slider-wrapper .slick-next {
+  right: 10px;
+}
+
+.slider-wrapper .slick-dots {
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
+}
+
+.slider-wrapper .slick-dots li {
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.slider-wrapper .slick-dots li button {
+  font-size: 0;
+  line-height: 0;
+  display: block;
+  width: 10px;
+  height: 10px;
+  padding: 5px;
+  cursor: pointer;
+  color: transparent;
+  border: none;
+  outline: none;
+  background: #ccc;
+  border-radius: 50%;
+  transition: background 0.3s ease;
+}
+
+.slider-wrapper .slick-dots li.slick-active button {
+  background: #555;
+}
+
+.slider-wrapper .slider-card {
+  width: 80%;
+  padding:15px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  
+}
+
+
+.slider-wrapper .slider-card h3 {
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: #333;
+}
+
+.slider-wrapper .slider-card p {
+  color: #666;
+  font-size: 14px;
+}

@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { FaGoogle } from 'react-icons/fa';
 import './register.css';
 import { useNavigate } from 'react-router-dom';
 import { auth, provider, signInWithPopup, dbf } from '../auth/firebase';
@@ -143,6 +144,7 @@ const Register = () => {
           </form>
           <div className="google-signin">
             <button onClick={handleGoogleSignIn} className="google-button">
+            <FaGoogle  className='gSign'/>
               Sign in with Google
             </button>
           </div>

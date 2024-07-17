@@ -1,64 +1,53 @@
-import React from 'react'
-import './Header.css'
-import { BrowserRouter as Router, Route, Routes, Link ,NavLink} from 'react-router-dom';
-// import { useAuth0 } from "@auth0/auth0-react";
+import React, { useEffect, useState } from 'react';
+import './Header.css';
+import { BrowserRouter as Router, Route, Routes, Link, NavLink } from 'react-router-dom';
+import { auth } from '../auth/firebase'; // import the auth instance from firebase.js
 import ProfileMenu from '../ProfileMenu/ProfileMenu';
+
 function Header() {
-    // const { loginWithRedirect, isAuthenticated, user, logout } = useAuth0();
+    const [isAuthenticated, setIsAuthenticated] = useState(false);
+    const [user, setUser] = useState(null);
 
+    useEffect(() => {
+        const unsubscribe = auth.onAuthStateChanged((user) => {
+            if (user) {
+                setIsAuthenticated(true);
+                setUser(user);
+            } else {
+                setIsAuthenticated(false);
+                setUser(null);
+            }
+        });
 
-    
+        // Cleanup subscription on unmount
+        return () => unsubscribe();
+    }, []);
 
-    const isAuthenticated = false;
+    return (
+        <section className='h-wrapper'>
+            <div className='flexCenter paddings innerWidth h-container '>
+                <Link to='/'>
+                    <img src="logo.svg" alt="logi" width={100} />
+                </Link>
 
-  return (
-    <section className='h-wrapper'>
-        <div className='flexCenter paddings innerWidth h-container '>
+                <div className="flexCenter h-menu">
+                    <NavLink to={'/'}>Home</NavLink>
+                    <NavLink to={'/AboutUs'}>About Us</NavLink>
+                    <NavLink to={'/Services'}>Services</NavLink>
+                    <NavLink to={'/ContactUs'}>Contact Us</NavLink>
 
-            <Link to='/'>
-                <img src="logo.svg" alt="logi" width={100}/>
-            </Link>
-
-            <div className="flexCenter h-menu">
-
-                <NavLink to={'/'}>Home</NavLink>
-                <NavLink to={'/AboutUs'}>About Us</NavLink>
-
-
-                <NavLink to={'/Services'}>Services</NavLink>
-                <NavLink to={'/ContactUs'}>ContactUs</NavLink>
-                
-
-                {/* <button className="button">
-                    <a href="">SignIn</a>
-                </button> */}
-
-               {/* login button */}
-            {/* {!isAuthenticated ? (
-              <button className="button" onClick={loginWithRedirect}>
-                Login
-              </button>
-            ) : (
-              <ProfileMenu user={user} logout={logout} />
-            )} */}
-
-
-
-            {!isAuthenticated ? (
-              <>
-              <button className="button"><Link to={'/login'}>Login</Link></button>
-              <button className="button"><Link to={'/register'}>Register</Link></button>
-              </>
-            ) : (
-              <button className='button'>Logout</button>
-            )}
-              
-              
-
+                    {!isAuthenticated ? (
+                        <>
+                            <button className="button"><Link to={'/login'}>Login</Link></button>
+                            <button className="button"><Link to={'/register'}>Register</Link></button>
+                        </>
+                    ) : (
+                        <ProfileMenu user={user} />
+                    )}
+                </div>
             </div>
-        </div>
-    </section>
-  )
+        </section>
+    );
 }
 
-export default Header
+export default Header;

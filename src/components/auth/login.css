@@ -12,7 +12,7 @@
   .login-container {
     background: white;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 10px 10px 15px rgba(3, 0, 3, 0.76);
     overflow: hidden;
     width: 400px;
     max-width: 100%;
@@ -26,6 +26,9 @@
     margin-bottom: 20px;
     font-size: 24px;
     color: #333;
+    padding-right: 20px;
+    
+    /* font-weight: 600; */
   }
   
   .form-group {
@@ -35,7 +38,7 @@
   .form-group label {
     display: block;
     margin-bottom: 5px;
-    color: #555;
+    color: #555555;
   }
   
   .form-group input {
@@ -64,3 +67,27 @@
     background: #5a0eb7;
   }
   
+
+.google-signin{
+  padding-top: 20px;
+  padding-left: 90px;
+  margin: 2px;
+}
+
+.google-signin>button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  gap: 1rem;
+}
+
+.gSign{
+  
+}
+
+.h2Login{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

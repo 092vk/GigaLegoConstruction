@@ -1,9 +1,12 @@
 import React, { useState } from 'react';
+import { FaGoogle } from 'react-icons/fa';
 import './login.css';
 import { useNavigate } from 'react-router-dom';
 import { auth, provider, signInWithPopup, dbf } from '../auth/firebase'; //local
 import { signInWithEmailAndPassword } from 'firebase/auth'; //module
 import { setDoc, doc } from "firebase/firestore";
+
+
 
 const Login = () => {
 
@@ -65,7 +68,10 @@ const Login = () => {
     <div className="bdy">
       <div className="login-container">
         <div className="login-form">
-          <h2>Login</h2>
+          <div className='h2Login'>
+            <h2>Login</h2>
+          </div>
+          
           <form onSubmit={handleSubmit}>
             <div className="form-group">
               <label>Email:</label>
@@ -89,7 +95,7 @@ const Login = () => {
           </form>
           <div className="google-signin">
             <button onClick={handleGoogleSignIn} className="google-button">
-              Sign in with Google
+            <FaGoogle  className='gSign'/> Sign in with Google
             </button>
           </div>
         </div>
