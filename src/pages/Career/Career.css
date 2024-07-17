@@ -1,97 +1,114 @@
-/* ContactUs.css */
-
+/* General styles for the contact page */
 .ContactUs {
-    display: flex;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+  background-color: #191919;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  max-width: 1200px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.left-section, .right-section {
+  flex: 1;
+  padding: 40px;
+}
+
+.left-section {
+  background-color: #313131;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid white;
+}
+
+.left-section h1 {
+  margin-bottom: 3rem;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.left-section .heading2 {
+  font-size: 1.8rem;
+  margin-left: 2rem;
+  color: #f2ae6a;
+  font-weight: 600;
+}
+
+.left-section .heading3 {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin: 2rem;
+}
+
+.right-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f4f4f9;
+}
+
+.emailForm {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 400px;
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.emailForm input,
+.emailForm textarea {
+  border: 1px solid rgb(126, 125, 125);
+  margin-bottom: 15px;
+  padding: 15px;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.emailForm textarea {
+  resize: vertical;
+}
+
+.emailForm .button {
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  padding: 15px;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.emailForm .button:hover {
+  background-color: #0056b3;
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 768px) {
+  .container {
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
-    background-color: #1a1a1a;
-    color: #fff;
+  }
+
+  .left-section, .right-section {
     padding: 20px;
   }
-  
-  .ContactUs > form {
-    max-width: 80%;
-    display: flex;
-    flex-direction: column;
-    width: 40vw;
-    height: auto; /* Adjust height to be responsive */
-    padding: 2rem;
-    background-color: rgb(228, 228, 237);
-    gap: 1.5rem;
-    border-radius: 10px;
-    border: 0.3px solid rgb(18, 18, 18);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin-bottom: 2rem;
+
+  .emailForm {
+    padding: 20px;
   }
-  
-  .ContactUs > form > input,
-  .ContactUs > form > textarea {
-    font-size: 0.9rem;
-    background-color: white;
-    color: black;
-    padding: 1.1rem 1.1rem;
-    border-radius: 5px;
-    font-weight: 600;
-    border: 1.5px solid rgb(53, 53, 56);
-  }
-  
-  .ContactUs > form > textarea {
-    resize: vertical; /* Allowing vertical resize for textarea */
-  }
-  
-  .ContactUs > form > input::placeholder,
-  .ContactUs > form > textarea::placeholder {
-    color: #999; /* Placeholder text color */
-  }
-  
-  .button {
-    background-color: #007bff; /* Blue button */
-    color: #fff;
-    border: none;
-    padding: 15px;
-    border-radius: 5px;
-    font-size: 1rem;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-    align-self: flex-start; /* Align button to the start of the form */
-  }
-  
-  .button:hover {
-    background-color: #0056b3; /* Darker blue on hover */
-  }
-  
-  /* Media Queries for Responsive Design */
-  @media (max-width: 768px) {
-    .ContactUs > form {
-      width: 60vw;
-      left: 0;
-      padding: 1.5rem;
-    }
-  
-    .button {
-      align-self: center; /* Center button on smaller screens */
-    }
-  }
-  
-  @media (max-width: 480px) {
-    .ContactUs h1 {
-      font-size: 2rem;
-    }
-  
-    .ContactUs > form {
-      width: 80vw;
-      padding: 1rem;
-    }
-  
-    .ContactUs > form > input,
-    .ContactUs > form > textarea {
-      padding: 1rem;
-    }
-  
-    .button {
-      padding: 10px;
-    }
-  }
-  
+}

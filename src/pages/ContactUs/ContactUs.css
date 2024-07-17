@@ -1,18 +1,28 @@
 .ContactUs{
     color: rgb(255, 255, 255);
-    background: url(../../../public/services.png);
-    background-color: rgb(240, 235, 235);
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-color: rgb(13, 12, 12);
     padding: 4rem ;
 }
 
 .ContactUs h1{
     margin: 2rem;
     font-size: 3rem;
-    color: rgb(38, 60, 148);
+    color: rgb(125, 125, 213);
     font-weight: 700;
     padding-left: 14px;
-    margin-bottom: 2rem;
-    border-left: 8px solid rgb(38, 60, 148);
+    margin-bottom: 5rem;
+    border-left: 8px solid rgb(125, 125, 213);
 }
+
+.left-section .heading2 {
+    font-size: 1.8rem;
+    margin-left: 2rem;
+    color: rgb(132, 131, 130);
+    font-weight: 600;
+  }
+  
+  .left-section .heading3 {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin: 1.5rem 2rem 2rem;
+  }
