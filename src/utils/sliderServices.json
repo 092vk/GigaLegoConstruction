@@ -3,13 +3,15 @@
       "name": "Revit Service",
       "price": "47,043",
       "detail": "Jakarta Garden City Street, Cakung. Pulo Gadung, Jakarta Timur, DKI Jakarta",
-      "image": "./pexels.jpg"
+      "image": "./pexels.jpg",
+      "link":"./Architectural/RevitServices"
     },
     {
       "name": "Architectual",
       "price": "66,353",
       "detail": "Pahlawan Street XVII No.215, Cinangka, Sawangan, Depok, Jawa Barat",
-      "image": "./pexels.jpg"
+      "image": "./pexels.jpg",
+      "link":"./AboutUs"
     },
     {
       "name": "Citralan Puri Serang",

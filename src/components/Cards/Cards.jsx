@@ -23,6 +23,7 @@ function Cards({ data }) {
           {
             data ? data.map((card, i) => (
               <SwiperSlide key={i}>
+                <a href={card.link}>
                 <div className="flexColStart r-card">
                   <img src={card.image} alt='home' />
 
@@ -33,6 +34,7 @@ function Cards({ data }) {
                   <span className='primaryText'>{card.name}</span>
                   <span className='secondaryText'>{card.detail}</span>
                 </div>
+                </a>
               </SwiperSlide>
             )) : <p>Loading...</p>
           }
