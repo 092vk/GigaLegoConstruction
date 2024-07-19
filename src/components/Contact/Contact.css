@@ -24,8 +24,9 @@
   gap: 1.5rem;
 }
 .mode {
-  width: 16rem;
+  width: 26rem;
   padding: 1rem;
+  margin: 0.6rem;
   border: 0.8px solid rgba(128, 128, 128, 0.143);
   border-radius: 5px;
   gap: 1rem;
