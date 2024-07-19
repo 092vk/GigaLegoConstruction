@@ -20,7 +20,7 @@ function Values() {
         {/* {left side} */}
         <div className="v-left">
           <div className="image-container">
-            <img src="./service.jpeg" alt="" />
+            <img src="./service.png" alt="" />
           </div>
         </div>  
 
