@@ -2,18 +2,18 @@
 [
     {
       "image": "../../../../public/r1.png",
-      "name": "Card 1",
-      "info": "Information about Card 1."
+      "name": "Structural Engineering Services",
+      "info": "Developing detailed structural models, including beams, columns, trusses, and foundations."
     },
     {
       "image": "../../../../public/r2.png",
-      "name": "Card 2",
-      "info": "Information about Card 2."
+      "name": "MEP Engineering Services",
+      "info": " Designing HVAC systems, ductwork, and mechanical equipment layouts and others ."
     },
     {
       "image": "../../../../public/r3.png",
-      "name": "Card 3",
-      "info": "Information about Card 3."
+      "name": "Architecture Services",
+      "info": "Creating detailed architectural models, floor plans, elevations, sections, and 3D views."
     }
   ]
   

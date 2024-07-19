@@ -1,0 +1,19 @@
+
+[
+    {
+      "image": "../../../../public/r1.png",
+      "name": "2D to CAD Conversion",
+      "info": " Converting hand-drawn sketches, blueprints, or PDF files into accurate CAD drawings."
+    },
+    {
+      "image": "../../../../public/r2.png",
+      "name": "Space Planning",
+      "info": "Optimizing the layout of spaces based on the 2D floor plans to improve functionality and flow."
+    },
+    {
+      "image": "../../../../public/r3.png",
+      "name": "3D Modeling from 2D Plans:",
+      "info": "Creating detailed 3D models from 2D floor plans using software like Revit, AutoCAD, or SketchUp."
+    }
+  ]
+  

@@ -16,7 +16,7 @@ function MainPage() {
     className='buttonW'>
       <div style={{ marginBottom: '10px' }}>
         <button onClick={() => handleButtonClick(0)}>Revit Services</button>
-        {activeDropdown === 0 && <DropdownBox />}
+        {activeDropdown === 0 && <DropdownBox link={"./Architectural/RevitServices"}/>}
       </div>
       <div style={{ marginBottom: '10px' }}>
         <button onClick={() => handleButtonClick(1)}>CAD Conversion</button>

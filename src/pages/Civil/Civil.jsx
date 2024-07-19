@@ -6,8 +6,8 @@ function Civil() {
   return (
     <div className='civil-wrapper'>
       <div className='civilHero'>
-      <h1>Civil Page</h1>
-      <p>Building Dreams</p>
+      <h1 className='h1A'>Civil Page</h1>
+      <p className='pA'>Building Dreams</p>
       </div>
       
       <HCivil/>
