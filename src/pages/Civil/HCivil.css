@@ -1,3 +1,5 @@
+
+
 .buttonW > div button {
     background-color: #4CAF50; /* Green background */
     color: white; /* White text */
@@ -15,6 +17,9 @@
     width: 15rem;
 }
 
+.buttonW>div:hover{
+    transform: scale(1.2);
+}
 .buttonW > div button:hover {
     background-color: #45a049; /* Darker green on hover */
     color: white;

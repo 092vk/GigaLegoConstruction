@@ -2,6 +2,7 @@
     background-color: var(--black);
     color: white;
     padding-left: 4rem;
+    padding-bottom: 10rem;
 }
 
 .p{
@@ -22,4 +23,12 @@
     justify-content: center;
     padding-left: 5rem;
     padding-right: 5rem;
+}
+
+.TM{
+    border-left: 0.5rem solid orange;
+}
+
+.TM>h1,p{
+    padding-left: 2rem;
 }

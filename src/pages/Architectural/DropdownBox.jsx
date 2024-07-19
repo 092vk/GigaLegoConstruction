@@ -8,12 +8,14 @@ function DropdownBox({ info }) {
         {/* Box 1: Inline Block */}
         <div className="dropdown-box">
           <p>Service/Consultancy</p>
-          <button>Book the service</button>
+          <button className='button'>Know More</button>
+          <button className='button'>Book the service</button>
         </div>
 
         {/* Box 2: Positioned Below the First Box */}
         <div className="dropdown-info">
-          <p>{info} Service will be provided soon</p>
+          <p>{info} Service will be provided soon
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos ea praesentium molestias asperiores aliquid vel labore expedita consequatur adipisci reiciendis!</p>
         </div>
       </div>
     </>

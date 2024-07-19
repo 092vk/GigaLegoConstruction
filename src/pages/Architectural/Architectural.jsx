@@ -27,8 +27,8 @@ function App() {
   return (
     <div className='arch-wrapper'>
       <div className="archHero">
-      <h1>Architectural Page</h1>
-      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima, quaerat!</p>
+      <h1 className='h1A'>Architectural Page</h1>
+      <p className='pA'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima, quaerat!</p>
       </div>
       
       <AHome />

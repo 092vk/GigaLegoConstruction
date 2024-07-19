@@ -5,7 +5,10 @@ import BHome from './BHome'
 function BIM() {
   return (
     <div className='BIM-wrapper'>
-      <h1>BIM Page</h1>
+      <div className="bimHero">
+      <h1 className='h1A'>BIM Page</h1>
+      </div>
+      
       <BHome/>
     </div>
   )

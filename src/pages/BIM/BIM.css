@@ -1,4 +1,21 @@
 .BIM-wrapper{
-    background-color: white;
-    color: black;
+    background-color: rgb(13, 12, 12);
+    color:rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    /* padding-left: 10vw; */
+    padding: 2rem;
+    margin: 6rem;
+    border-radius: 8px;
+    /* border: 2px solid blue; */
 }
+
+.bimHero{
+    font-size: 2rem;
+    display: block;
+    position: relative;
+    left: 10%;
+    border-left: 0.4rem solid orange;
+}
+
+

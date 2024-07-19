@@ -2,6 +2,7 @@
 import React, { useState } from 'react';
 import DropdownBox from './DropdownBox';
 import '../Civil/HCivil.css'
+import './BHome.css'
 
 function MainPage() {
   const [activeDropdown, setActiveDropdown] = useState(null);

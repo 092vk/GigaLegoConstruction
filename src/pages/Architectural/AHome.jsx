@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import DropdownBox from './DropdownBox';
 import '../Civil/HCivil.css'
-
+import './AHome.css'
 
 function MainPage() {
   const [activeDropdown, setActiveDropdown] = useState(null);
@@ -12,7 +12,7 @@ function MainPage() {
   };
 
   return (
-    <div style={{ padding: '20px' }}
+    <div
     className='buttonW'>
       <div style={{ marginBottom: '10px' }}>
         <button onClick={() => handleButtonClick(0)}>Revit Services</button>
