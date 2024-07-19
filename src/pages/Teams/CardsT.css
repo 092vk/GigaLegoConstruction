@@ -1,0 +1,59 @@
+.CardsT-wrapper{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.CardsT{
+    border: 4px solid #4658f7;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(252, 247, 247, 0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    color: black;
+    max-width:15vw;
+    height: auto;
+    padding: 16px;
+    margin: 8px;
+    transition: box-shadow 0.3s ease;
+}
+
+.CardsT:hover {
+    box-shadow: 0 8px 16px rgba(252, 247, 247, 0.2); /* Increase shadow on hover */
+    scale: 1.02;
+  }
+
+.CardsT>img{
+    width:100%;
+    height:auto;
+    border-radius: 8px 8px 0 0;
+}
+
+.CardsInfo{
+    display: flex;
+    flex-direction: column;
+    padding: 8px 0;
+
+}
+
+.CardsInfo>span{
+    color: black;
+    font-size: 1.3rem;
+}
+
+
+.Name{
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.Post,.Info{
+    display: block;
+    margin-top: 4px;
+}
