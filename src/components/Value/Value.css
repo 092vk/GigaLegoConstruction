@@ -1,14 +1,21 @@
 .v-container .image-conatiner{
     border: 8px solid rgb(232 232 232 / 93%);
+    
 }
 
 .v-container>div{
     flex: 1;
+    
+    
 }
 
 .v-right{
     gap: 0.5rem;
     
+    background-color: #ced3d9;
+    border-radius: 29px;
+    padding: 2rem;
+    border: 1.5px solid #363f46 ;
 }
 
 /* .v-right>span{
@@ -34,6 +41,7 @@
     border:0.8px solid rgba(128 , 128,128,0.143);
     border-radius: 8px;
     margin-bottom: 20px;
+    border: 2px solid black;
 }
 
 .accordionItem.expanded{
