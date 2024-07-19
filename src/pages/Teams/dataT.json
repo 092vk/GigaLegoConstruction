@@ -1,45 +1,51 @@
 [
     {
-        "Name":"Vivek Kumar Ray",
-        "Post":"Tech Lead & Website",
-        "Info":"He works in tech , He is good in web and also knows ml.He is a Electronics Engineer .",
-        "img":"../../../public/nadella5.jpg"
-
-    },
-    {
         "Name":"Raj Soni",
-        "Post":"Tech Lead & Website",
+        "Post":"CEO and Founder of GigaLegoConstruction",
         "Info":"He works in tech , He is good in web and also knows ml.He is a Electronics Engineer .",
-        "img":"../../../public/nadella5.jpg"
-
-    },
-    {
-        "Name":"Saurav",
-        "Post":"Tech Lead & Website",
-        "Info":"He works in tech , He is good in web and also knows ml.He is a Electronics Engineer .",
-        "img":"../../../public/nadella5.jpg"
+        "img":"../../../public/raj.jpeg"
 
     },
     {
         "Name":"Vivek Kumar Ray",
         "Post":"Tech Lead & Website",
         "Info":"He works in tech , He is good in web and also knows ml.He is a Electronics Engineer .",
-        "img":"../../../public/nadella5.jpg"
+        "img":"../../../public/vk.png"
 
     },
     {
         "Name":"Vivek Kumar Ray",
         "Post":"Tech Lead & Website",
         "Info":"He works in tech , He is good in web and also knows ml.He is a Electronics Engineer .",
+        "img":"../../../public/saurabh.jpeg"
+
+    },
+    {
+        "Name":"Apiksha Pandita",
+        "Post":"Freelancer Tech Team",
+        "Info":"He works in tech , He is good in web and also knows ml.He is a Electronics Engineer .",
         "img":"../../../public/nadella5.jpg"
 
     },
     {
-        "Name":"Vivek Kumar Ray",
+        "Name":"Harsh Kumar ",
         "Post":"Tech Lead & Website",
         "Info":"He works in tech , He is good in web and also knows ml.He is a Electronics Engineer .",
         "img":"../../../public/nadella5.jpg"
 
+    },
+    {
+        "Name":"Neelam Kumari",
+        "Post":"Architect",
+        "Info":"He works in tech , He is good in web and also knows ml.He is a Electronics Engineer .",
+        "img":"../../../public/nadella5.jpg"
+
+    },
+    {
+        "Name":"raj",
+        "Post":"lead",
+        "Info":"he leads the team",
+        "img":"../../../public/nadella5.jpg"
     }
     
 ]

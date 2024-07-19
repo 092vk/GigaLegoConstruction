@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import './FloorPlanConversion.css';
+import Slider from '../../../components/slider/Slider'
+import data from '../../../utils/data/data2.json'
 
 function FloorPlanConversion() {
   const [visibleSection, setVisibleSection] = useState(null);
@@ -10,7 +12,12 @@ function FloorPlanConversion() {
 
   return (
     <div className='FloorPlanConversion'>
-      <h1 className='head1'>2D and 3D Floor Plan Conversion with GigaLego Construction</h1>
+      
+
+      <div className='s'>
+        <h1 className='head1'>2D and 3D Floor Plan Conversion with GigaLego Construction</h1>
+        <Slider cardsData={data} />
+      </div>
 
       <div className='content'>
         <h2 onClick={() => toggleSection('section1')}>Elevate Your Designs with Precision CAD Conversion</h2>

@@ -12,7 +12,7 @@ function MainPage() {
   };
 
   return (
-    <div style={{ padding: '20px' }}
+    <div
     className='buttonW'>
       <div style={{ marginBottom: '10px' }}>
         <button onClick={() => handleButtonClick(0)}>BIM For Infrastructure</button>

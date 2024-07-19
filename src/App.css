@@ -1,7 +1,7 @@
 .App{
     position: relative;
     overflow-x: clip;
-    background-color:var(--black);
+    background-color:white;
     /* overflow: hidden; */
 }
 .App>:nth-child(1){

@@ -8,7 +8,7 @@ function DropdownBox({ info }) {
         {/* Box 1: Inline Block */}
         <div className="dropdown-box">
           <p>Service/Consultancy</p>
-          <button className='button'>Know More</button>
+          <a href="./Architectural/RevitServices"><button className='button'>Know More</button></a>
           <button className='button'>Book the service</button>
         </div>
 

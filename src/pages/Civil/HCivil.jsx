@@ -11,7 +11,7 @@ function MainPage() {
   };
 
   return (
-    <div style={{ padding: '20px' }} className='buttonW'>
+    <div className='buttonW'>
       <div style={{ marginBottom: '10px' }} >
         <button onClick={() => handleButtonClick(0)}>Construction Drawings</button>
         {activeDropdown === 0 && <DropdownBox info='this is a Construction Drawing'/>}
