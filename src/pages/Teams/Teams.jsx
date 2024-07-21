@@ -12,7 +12,7 @@ function Teams() {
       </div>
      
       <div className='p2div'>
-        <p className='p2'>Our team is filled with higly qualified engineers from top Indian Institutes with years of experience</p>
+        <p className='p2'>Our team is filled with higly qualified engineers from Top Indian Institute who have years of Experiences with  thme</p>
       </div>
 
       <div className='Cards-Container'>
