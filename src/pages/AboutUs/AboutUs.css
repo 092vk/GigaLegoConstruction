@@ -9,8 +9,7 @@ body {
   }
   
   .info {
-    /* background-color: rgba(255, 255, 255, 0.8); */
-    background: url(../../../public/services.png);
+    background-color: rgba(255, 255, 255, 0.8);
     padding: 40px;
     margin: 50px auto;
     max-width: 80%;

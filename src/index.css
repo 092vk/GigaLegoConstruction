@@ -19,7 +19,7 @@
 }
 
 .primaryText{
-  color: #142035;
+  color: #1f3e72;
   font-weight: bold;
   font-size: 2rem;
 }
@@ -32,7 +32,7 @@
 
 
 .secondaryText{
-  color: rgb(51, 50, 50);
+  color: rgba(140 139 139);
   font-size: 0.9rem;
 }  
 
