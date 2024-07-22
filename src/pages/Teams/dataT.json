@@ -8,14 +8,14 @@
     },
     {
         "Name":"Vivek Kumar Ray",
-        "Post":"Tech Lead & Website",
+        "Post":"Tech Lead",
         "Info":"He works in tech , He is good in web and also knows ml.He is a Electronics Engineer .",
         "img":"../../../public/vk.png"
 
     },
     {
-        "Name":"Vivek Kumar Ray",
-        "Post":"Tech Lead & Website",
+        "Name":"Saurabh Chaudhary",
+        "Post":"Head Marketing Team",
         "Info":"He works in tech , He is good in web and also knows ml.He is a Electronics Engineer .",
         "img":"../../../public/saurabh.jpeg"
 
@@ -42,7 +42,7 @@
 
     },
     {
-        "Name":"raj",
+        "Name":"Raj Yadav",
         "Post":"lead",
         "Info":"he leads the team",
         "img":"../../../public/nadella5.jpg"
