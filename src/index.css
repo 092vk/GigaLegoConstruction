@@ -32,10 +32,18 @@
 
 
 .secondaryText{
-  color: rgb(51, 50, 50);
+  color: rgb(150, 150, 150);
   font-size: 0.9rem;
 }  
 
+
+.flexLeft{
+  display: flex;
+  row-gap: 2rem;
+  justify-content: left;
+  align-items: center;
+  flex-wrap: wrap;
+}
 
 .flexCenter{
   display: flex;
@@ -50,6 +58,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
+  margin-top: 1.5rem;
 }
 
 

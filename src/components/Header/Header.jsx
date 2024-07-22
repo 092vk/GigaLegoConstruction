@@ -27,7 +27,7 @@ function Header() {
         <section className='h-wrapper'>
             <div className='flexCenter paddings innerWidth h-container '>
                 <Link to='/'>
-                    <img src="logo.svg" alt="logi" width={100} />
+                    <img src="logo.png" alt="logi" width={100} />
                 </Link>
 
                 <div className="flexCenter h-menu">
@@ -45,6 +45,7 @@ function Header() {
                         <ProfileMenu user={user} />
                     )}
                 </div>
+                
             </div>
         </section>
     );

@@ -7,12 +7,12 @@ import CountUp from 'react-countup'
 function Hero() {
   return (
     <section className='hero-wrapper'>
-        <div className="paddings innerWidth flexCenter hero-container ">
+        <div className="paddings innerWidth flexLeft hero-container ">
 
             <div className="flexColstart hero-left">
                 <div className="hero-title">
                     <div className='orange-circle'></div>
-                    <h1>GIGA LEGO <br />
+                    <h1>GIGA LEGO 
                     Construction</h1>
                 </div>
 
@@ -23,7 +23,7 @@ function Hero() {
                     </span>
                 </div>
 
-                <div className="flexCenter search-bar">
+                <div className="flexLeft search-bar">
                     <HiLocationMarker color="var(--blue)" size={25}/>
                     <input type="text" placeholder='Search Here'/>
                     <button className='button'>Search</button>
