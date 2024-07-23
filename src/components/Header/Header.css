@@ -5,7 +5,14 @@
     z-index: 100;
     width: 100%;
     top: 0;*/
+    z-index: 1;
+    display:absolute;
 } 
+
+.logoC{
+    height: 20rem;
+    width: auto;
+}
 
 .h-container {
     justify-content: space-between !important;
