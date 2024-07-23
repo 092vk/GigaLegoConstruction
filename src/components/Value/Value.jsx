@@ -20,14 +20,16 @@ function Values() {
         {/* {left side} */}
         <div className="v-left">
           <div className="image-container">
-            <img src="./r1.png" alt="" />
+            <img src="./ourservices.png" alt="" />
           </div>
         </div>  
 
         {/* {right side} */}
         <div className="flexColStart v-right">
-          <span className='orangeText'>Our Services</span>
-          <span className='primaryText'>Services We Provide</span>
+          <span className='sideBorder'>
+            <span className='orangeText'>Our Services</span> <br />
+            <span className='primaryText'>Services We Provide</span>
+          </span>
           <span className='secondaryText'>Value we give to you</span>
 
 

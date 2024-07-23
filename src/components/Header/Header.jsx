@@ -45,6 +45,7 @@ function Header() {
                         <ProfileMenu user={user} />
                     )}
                 </div>
+                
             </div>
         </section>
     );

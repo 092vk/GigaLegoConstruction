@@ -1,5 +1,6 @@
 .h-wrapper{
-    background:var(--black);
+    
+    background-color: var(--black);
     /* color: white; */
     /* position: fixed;
     z-index: 100;
