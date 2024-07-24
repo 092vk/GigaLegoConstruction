@@ -11,7 +11,7 @@ function Home2({imageSlide}){
 
     useEffect(()=>{
         const timer = setTimeout(()=>{
-            if(currentState === 2){
+            if(currentState === 3){
                 setCurrentState(0)
             }
             else{

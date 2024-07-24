@@ -3,7 +3,7 @@ import './RevitServices.css';
 import Slider from '../../../components/slider/Slider'
 import data from '../../../utils/data/data1.json'
 import Ap from '../../../components/Ap/Ap'
-import imageSlide from '../../../utils/dataSliderImage/ApData'
+import imageSlide from '../../../utils/dataSliderImage/Ap2Data'
 
 function RevitServices() {
   const [visibleSection, setVisibleSection] = useState(null);
