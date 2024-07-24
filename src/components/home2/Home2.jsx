@@ -37,7 +37,7 @@ function Home2(){
                 <div className='descriptione'>
                     <div>
                         <h1 className='h11'>GigaLegoConstruction</h1>
-                        <p className='p11'>We build trust and hope</p>
+                        <p className='p11'>Building trust and hope</p>
                     </div>
                     <div className="carousel-button">
                         {

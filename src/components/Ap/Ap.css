@@ -5,7 +5,8 @@
     background-color:#333;
     color: white;
     width: 100vw;
-    height: 100vh;
+    height: 80vh;
+    opacity: 0.85;
 }
 
 .description{
