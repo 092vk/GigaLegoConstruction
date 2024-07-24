@@ -2,7 +2,7 @@ const imageSlide =[
     {
         'Name':'abc',
         'url':'../../../public/r1.png',
-        'des':'do u play basketball .. lame way to ask i know ... '
+        'des':'hhh'
     },
     {
         'Name':'cde',

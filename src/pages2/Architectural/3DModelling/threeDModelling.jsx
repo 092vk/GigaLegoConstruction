@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import './threeDModelling.css';
+import Ap from '../../../components/Ap/Ap'
+import imageSlide from '../../../utils/dataSliderImage/ApData'
 
 function ThreeDModelling() {
   const [visibleSection, setVisibleSection] = useState(null);
@@ -14,6 +16,8 @@ function ThreeDModelling() {
 
       <div className='content'>
         <h2 onClick={() => toggleSection('section1')}>Bring Your Designs to Life with Expert 3D Modeling</h2>
+        <Ap imageSlide={imageSlide}/>
+
         {visibleSection === 'section1' && (
           <div className='p1'>
             GigaLego Construction specializes in creating detailed and realistic 3D models that enhance visualization, communication, and innovation in your projects. Whether you're in architecture, engineering, or product design, our 3D modeling services empower you to showcase your ideas with precision and creativity.

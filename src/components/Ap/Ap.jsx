@@ -1,12 +1,12 @@
 import React, { useEffect } from 'react';
 import './Ap.css'
-import imageSlide from './ApData';
+// import imageSlide from './ApData';
 
 
 import { useState } from 'react';
 import { BackgroundImage } from '@mantine/core';
 
-function Home2(){
+function Home2({imageSlide}){
     const [currentState,setCurrentState] = useState(0);
 
     useEffect(()=>{

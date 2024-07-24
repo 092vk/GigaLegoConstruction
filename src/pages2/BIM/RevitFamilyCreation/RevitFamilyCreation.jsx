@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import './RevitFamilyCreation.css';
+import Ap from '../../../components/Ap/Ap'
+import imageSlide from '../../../utils/dataSliderImage/ApData'
 
 function RevitFamilyCreation() {
   const [visibleSection, setVisibleSection] = useState(null);
@@ -11,6 +13,7 @@ function RevitFamilyCreation() {
   return (
     <div className='FloorPlanConversion'>
       <h1 className='head1'>Revit Family Creation Services by GigaLego Construction</h1>
+      <Ap imageSlide={imageSlide}/>
 
       <div className='content'>
         <h2 onClick={() => toggleSection('section1')}>Customized Revit Families</h2>

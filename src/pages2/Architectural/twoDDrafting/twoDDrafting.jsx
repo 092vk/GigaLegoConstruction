@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import './TwoDDrafting.css';
+import Ap from '../../../components/Ap/Ap'
+import imageSlide from '../../../utils/dataSliderImage/ApData'
 
 function TwoDDrafting() {
   const [visibleSection, setVisibleSection] = useState(null);
@@ -11,6 +13,8 @@ function TwoDDrafting() {
   return (
     <div className='FloorPlanConversion'>
       <h1 className='head1'>Precision 2D Drafting Services by GigaLego Construction</h1>
+      <Ap imageSlide={imageSlide}/>
+      
 
       <div className='content'>
         <h2 onClick={() => toggleSection('section1')}>Enhance Your Projects with Expert 2D Drafting</h2>

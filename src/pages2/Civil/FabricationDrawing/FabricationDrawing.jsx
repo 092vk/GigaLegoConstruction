@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import './FabricationDrawing.css';
+import Ap from '../../../components/Ap/Ap'
+import imageSlide from '../../../utils/dataSliderImage/ApData'
 
 function FabricationDrawing() {
   const [visibleSection, setVisibleSection] = useState(null);
@@ -12,6 +14,7 @@ function FabricationDrawing() {
     <div className='FloorPlanConversion'>
 
       <h1 className='head1'>Fabrication Drawing Services by GigaLego Construction</h1>
+      <Ap imageSlide={imageSlide}/>
 
       <div className='content'>
         <h2 onClick={() => toggleSection('section1')}>Precision Drawings for Efficient Fabrication</h2>

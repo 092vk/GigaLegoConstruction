@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import './ClashDetection.css';
+import Ap from '../../../components/Ap/Ap'
+import imageSlide from '../../../utils/dataSliderImage/ApData'
 
 function ClashDetection() {
   const [visibleSection, setVisibleSection] = useState(null);
@@ -11,7 +13,8 @@ function ClashDetection() {
   return (
     <div className='FloorPlanConversion'>
       <h1 className='head1'>Clash Detection Services by GigaLego Construction</h1>
-
+      <Ap imageSlide={imageSlide}/>
+      
       <div className='content'>
         <h2 onClick={() => toggleSection('section1')}>Ensuring Seamless Integration and Error Prevention</h2>
         {visibleSection === 'section1' && (

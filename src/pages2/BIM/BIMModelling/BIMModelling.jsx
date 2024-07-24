@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import './BIMModelling.css';
+import Ap from '../../../components/Ap/Ap'
+import imageSlide from '../../../utils/dataSliderImage/ApData'
 
 function BIMModelling() {
   const [visibleSection, setVisibleSection] = useState(null);
@@ -11,6 +13,8 @@ function BIMModelling() {
   return (
     <div className='FloorPlanConversion'>
       <h1 className='head1'>BIM Modeling Services by GigaLego Construction</h1>
+      <Ap imageSlide={imageSlide}/>
+      
       <div className='content'>
         <h2 onClick={() => toggleSection('section1')}>Transforming Design with Advanced BIM Solutions</h2>
         {visibleSection === 'section1' && (

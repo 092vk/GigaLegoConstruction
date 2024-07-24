@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './BIMCoordination.css';
 import Ap from '../../../components/Ap/Ap'
+import imageSlide from '../../../utils/dataSliderImage/ApData'
 
 function BIMCoordination() {
   const [visibleSection, setVisibleSection] = useState(null);
@@ -13,7 +14,7 @@ function BIMCoordination() {
     <div className='FloorPlanConversion'>
       <h1 className='head1'>BIM Coordination Services by GigaLego Construction</h1>
 
-      <Ap/>
+      <Ap imageSlide={imageSlide}/>
 
       <div className='content'>
         <h2 onClick={() => toggleSection('section1')}>Enhancing Collaboration and Integration in Construction Projects</h2>

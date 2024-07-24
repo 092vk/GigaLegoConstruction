@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import './CadConversion.css';
+import Ap from '../../../components/Ap/Ap'
+import imageSlide from '../../../utils/dataSliderImage/ApData'
 
 function CadConversion() {
   const [visibleSection, setVisibleSection] = useState(null);
@@ -11,6 +13,7 @@ function CadConversion() {
   return (
     <div className='FloorPlanConversion'>
       <h1 className='head1'>CAD Conversion with GigaLego Construction</h1>
+      <Ap imageSlide={imageSlide}/>
 
       <div className='content'>
         <h2 onClick={() => toggleSection('section1')}>Transforming Traditional Designs into Digital Excellence</h2>

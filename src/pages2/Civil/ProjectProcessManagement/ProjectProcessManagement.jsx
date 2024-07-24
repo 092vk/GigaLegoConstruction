@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import './ProjectProcessManagement.css';
+import Ap from '../../../components/Ap/Ap'
+import imageSlide from '../../../utils/dataSliderImage/ApData'
 
 function ProjectProcessManagement() {
   const [visibleSection, setVisibleSection] = useState(null);
@@ -12,6 +14,7 @@ function ProjectProcessManagement() {
     <div className='FloorPlanConversion'>
 
       <h1 className='head1'>Project Process Management Services by GigaLego Construction</h1>
+      <Ap imageSlide={imageSlide}/>
 
       <div className='content'>
         <h2 onClick={() => toggleSection('section1')}>Streamlined Processes for Successful Project Execution</h2>

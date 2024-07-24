@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import './VolumetricEstimation.css';
+import Ap from '../../../components/Ap/Ap'
+import imageSlide from '../../../utils/dataSliderImage/ApData'
 
 function VolumetricEstimation() {
   const [visibleSection, setVisibleSection] = useState(null);
@@ -12,6 +14,7 @@ function VolumetricEstimation() {
     <div className='FloorPlanConversion'>
 
       <h1 className='head1'>Volumetric Estimation Services by GigaLego Construction</h1>
+      <Ap imageSlide={imageSlide}/>
 
       <div className='content'>
         <h2 onClick={() => toggleSection('section1')}>Accurate Volume Calculations for Efficient Project Planning</h2>

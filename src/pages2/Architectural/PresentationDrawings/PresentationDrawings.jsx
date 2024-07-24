@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import './PresentationDrawings.css';
+import Ap from '../../../components/Ap/Ap'
+import imageSlide from '../../../utils/dataSliderImage/ApData'
 
 function PresentationDrawings() {
   const [visibleSection, setVisibleSection] = useState(null);
@@ -11,6 +13,7 @@ function PresentationDrawings() {
   return (
     <div className='FloorPlanConversion'>
       <h1 className='head1'>Presentation Drawings with GigaLego Construction</h1>
+      <Ap imageSlide={imageSlide}/>
 
       <div className='content'>
         <h2 onClick={() => toggleSection('section1')}>Stunning Presentation Drawings Through Precision CAD Conversion</h2>

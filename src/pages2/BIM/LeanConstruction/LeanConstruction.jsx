@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import './LeanConstruction.css';
+import Ap from '../../../components/Ap/Ap'
+import imageSlide from '../../../utils/dataSliderImage/ApData'
 
 function LeanConstruction() {
   const [visibleSection, setVisibleSection] = useState(null);
@@ -11,6 +13,7 @@ function LeanConstruction() {
   return (
     <div className='FloorPlanConversion'>
       <h1 className='head1'>Lean Construction Principles by GigaLego Construction</h1>
+      <Ap imageSlide={imageSlide}/>
 
       <div className='content'>
         <h2 onClick={() => toggleSection('section1')}>Enhancing Efficiency and Value in Construction Projects</h2>

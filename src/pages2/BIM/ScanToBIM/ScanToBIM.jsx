@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import './ScanToBIM.css';
+import Ap from '../../../components/Ap/Ap'
+import imageSlide from '../../../utils/dataSliderImage/ApData'
 
 function ScanToBIM() {
   const [visibleSection, setVisibleSection] = useState(null);
@@ -11,7 +13,8 @@ function ScanToBIM() {
   return (
     <div className='FloorPlanConversion'>
       <h1 className='head1'>Scan to BIM Services by GigaLego Construction</h1>
-
+      <Ap imageSlide={imageSlide}/>
+      
       <div className='content'>
         <h2 onClick={() => toggleSection('section1')}>Bridging Reality with Digital Precision</h2>
         {visibleSection === 'section1' && (

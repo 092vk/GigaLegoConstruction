@@ -34,10 +34,10 @@ function Home2(){
         <>
             <div className="Home2-wrapper">
                 <div style={bgImageStyle}></div>
-                <div className='description'>
+                <div className='descriptione'>
                     <div>
-                        <h1>GigaLegoConstruction</h1>
-                        <p>We build trust and hope</p>
+                        <h1 className='h11'>GigaLegoConstruction</h1>
+                        <p className='p11'>We build trust and hope</p>
                     </div>
                     <div className="carousel-button">
                         {

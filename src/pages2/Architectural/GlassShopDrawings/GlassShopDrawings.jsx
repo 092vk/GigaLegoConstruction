@@ -1,5 +1,8 @@
 import React, { useState } from 'react';
 import './GlassShopDrawings.css';
+import Ap from '../../../components/Ap/Ap'
+import imageSlide from '../../../utils/dataSliderImage/ApData'
+
 
 function GlassShopDrawings() {
   const [visibleSection, setVisibleSection] = useState(null);
@@ -11,6 +14,7 @@ function GlassShopDrawings() {
   return (
     <div className='FloorPlanConversion'>
       <h1 className='head1'>Glass Shop Drawings by GigaLego Construction</h1>
+      <Ap imageSlide={imageSlide}/>
 
       <div className='content'>
         <h2 onClick={() => toggleSection('section1')}>Precision Drawings for Glass Fabrication and Installation</h2>

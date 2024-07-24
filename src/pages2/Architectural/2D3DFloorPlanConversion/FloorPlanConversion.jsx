@@ -2,6 +2,9 @@ import React, { useState } from 'react';
 import './FloorPlanConversion.css';
 import Slider from '../../../components/slider/Slider'
 import data from '../../../utils/data/data2.json'
+import Ap from '../../../components/Ap/Ap'
+import imageSlide from '../../../utils/dataSliderImage/ApData'
+
 
 function FloorPlanConversion() {
   const [visibleSection, setVisibleSection] = useState(null);
@@ -16,6 +19,7 @@ function FloorPlanConversion() {
 
       <div className='s'>
         <h1 className='head1'>2D and 3D Floor Plan Conversion with GigaLego Construction</h1>
+        <Ap imageSlide={imageSlide}/>
         <Slider cardsData={data} />
       </div>
 

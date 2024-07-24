@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import './ConstructionCostEstimation.css';
+import Ap from '../../../components/Ap/Ap'
+import imageSlide from '../../../utils/dataSliderImage/ApData'
 
 function ConstructionCostEstimation() {
   const [visibleSection, setVisibleSection] = useState(null);
@@ -11,6 +13,7 @@ function ConstructionCostEstimation() {
   return (
     <div className='FloorPlanConversion'>
       <h1 className='head1'>Construction Cost Estimation Services by GigaLego Construction</h1>
+      <Ap imageSlide={imageSlide}/>
 
       <div className='content'>
         <h2 onClick={() => toggleSection('section1')}>Accurate Estimates for Informed Project Planning</h2>

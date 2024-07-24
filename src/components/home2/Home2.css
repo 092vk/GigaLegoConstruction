@@ -8,19 +8,19 @@
     height: 100vh;
 }
 
-.description{
+.descriptione{
     width: 600px;
     position: absolute;
     z-index: 999;
     color: aliceblue;
     top: 20%;
-    left: 10%;
+    left: 15%;
 }
 
-.description h1{
+.h11{
     font-size: 46px;
 }
-.description p{
+.p11{
     font-size: 22px;
 }
 
