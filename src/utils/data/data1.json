@@ -1,17 +1,17 @@
 
 [
     {
-      "image": "../../../../public/r1.png",
+      "image": "../r1.png",
       "name": "Structural Engineering Services",
       "info": "Developing detailed structural models, including beams, columns, trusses, and foundations."
     },
     {
-      "image": "../../../../public/r2.png",
+      "image": "../r2.png",
       "name": "MEP Engineering Services",
       "info": " Designing HVAC systems, ductwork, and mechanical equipment layouts and others ."
     },
     {
-      "image": "../../../../public/r3.png",
+      "image": "../r3.png",
       "name": "Architecture Services",
       "info": "Creating detailed architectural models, floor plans, elevations, sections, and 3D views."
     }

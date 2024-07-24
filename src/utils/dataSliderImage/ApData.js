@@ -15,8 +15,8 @@ const imageSlide =[
         'des':'tu ta ra , ram pam pam '
     },
     {
-        'Name':'zyyyyyy',
-        'url':'../../../../public/r2.png',
+        'Name':'zyyyyyyHHH',
+        'url':'./r2.png',
         'des':'tu ta ra , ram pam pam '
     },
 ]

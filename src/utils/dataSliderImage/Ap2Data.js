@@ -11,12 +11,12 @@ const imageSlide =[
     },
     {
         'Name':'fdg',
-        'url':'../../../public/r2.png',
+        'url':'../r2.png',
         'des':'tu ta ra , ram pam pam '
     },
     {
         'Name':'zyyyyyy',
-        'url':'../../../../public/r2.png',
+        'url':'../r2.png',
         'des':'tu ta ra , ram pam pam '
     },
 ]
