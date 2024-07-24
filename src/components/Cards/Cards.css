@@ -30,6 +30,7 @@
 .r-card > img {
     width: 100%;
     max-width: 15rem;
+    height: 15vw;
     /* border: 2px solid rgb(132, 131, 131); */
     /* border-radius: 10px; */
 }
@@ -69,6 +70,7 @@
     /* right: 0; */
     
     /* top: 0rem; */
+    padding-top: 5rem;
 }
 
 .r-buttons button{

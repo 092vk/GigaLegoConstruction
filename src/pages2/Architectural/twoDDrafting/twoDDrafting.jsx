@@ -1,7 +1,9 @@
 import React, { useState } from 'react';
 import './TwoDDrafting.css';
+import Slider from '../../../components/slider/Slider'
+import data from '../../../utils/data/data1.json'
 import Ap from '../../../components/Ap/Ap'
-import imageSlide from '../../../utils/dataSliderImage/ApData'
+import imageSlide from '../../../utils/dataSliderImage/Ap2Data'
 
 function TwoDDrafting() {
   const [visibleSection, setVisibleSection] = useState(null);
@@ -12,8 +14,12 @@ function TwoDDrafting() {
 
   return (
     <div className='FloorPlanConversion'>
-      <h1 className='head1'>Precision 2D Drafting Services by GigaLego Construction</h1>
-      <Ap imageSlide={imageSlide}/>
+     
+      <div className='s'>
+        <h1 className='head1'>Precision 2D Drafting Services by GigaLego Construction</h1>
+        <Ap imageSlide={imageSlide}/>
+        <Slider cardsData={data} />
+      </div>
       
 
       <div className='content'>

@@ -3,7 +3,7 @@ import './FloorPlanConversion.css';
 import Slider from '../../../components/slider/Slider'
 import data from '../../../utils/data/data2.json'
 import Ap from '../../../components/Ap/Ap'
-import imageSlide from '../../../utils/dataSliderImage/ApData'
+import imageSlide from '../../../utils/dataSliderImage/Ap2Data'
 
 
 function FloorPlanConversion() {

@@ -1,7 +1,9 @@
 import React, { useState } from 'react';
 import './StructuralDesignDrafting.css';
+import Slider from '../../../components/slider/Slider'
+import data from '../../../utils/data/data1.json'
 import Ap from '../../../components/Ap/Ap'
-import imageSlide from '../../../utils/dataSliderImage/ApData'
+import imageSlide from '../../../utils/dataSliderImage/Ap2Data'
 
 function StructuralDesignDrafting() {
   const [visibleSection, setVisibleSection] = useState(null);
@@ -13,8 +15,11 @@ function StructuralDesignDrafting() {
   return (
     <div className='FloorPlanConversion'>
 
-      <h1 className='head1'>Structural Design and Drafting Services by GigaLego Construction</h1>
-      <Ap imageSlide={imageSlide}/>
+      <div className='s'>
+        <h1 className='head1'>Structural Design and Drafting Services by GigaLego Construction</h1>
+        <Ap imageSlide={imageSlide}/>
+        <Slider cardsData={data} />
+      </div>
 
       <div className='content'>
         <h2 onClick={() => toggleSection('section1')}>Building Solid Foundations with Expertise</h2>

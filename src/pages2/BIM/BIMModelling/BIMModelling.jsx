@@ -1,7 +1,9 @@
 import React, { useState } from 'react';
 import './BIMModelling.css';
+import Slider from '../../../components/slider/Slider'
+import data from '../../../utils/data/data1.json'
 import Ap from '../../../components/Ap/Ap'
-import imageSlide from '../../../utils/dataSliderImage/ApData'
+import imageSlide from '../../../utils/dataSliderImage/Ap2Data'
 
 function BIMModelling() {
   const [visibleSection, setVisibleSection] = useState(null);
@@ -12,8 +14,12 @@ function BIMModelling() {
 
   return (
     <div className='FloorPlanConversion'>
-      <h1 className='head1'>BIM Modeling Services by GigaLego Construction</h1>
-      <Ap imageSlide={imageSlide}/>
+
+      <div className='s'>
+        <h1 className='head1'>BIM Modeling Services by GigaLego Construction</h1>
+        <Ap imageSlide={imageSlide}/>
+        <Slider cardsData={data} />
+      </div>
       
       <div className='content'>
         <h2 onClick={() => toggleSection('section1')}>Transforming Design with Advanced BIM Solutions</h2>

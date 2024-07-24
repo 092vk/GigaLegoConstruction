@@ -1,7 +1,9 @@
 import React, { useState } from 'react';
 import './threeDModelling.css';
+import Slider from '../../../components/slider/Slider'
+import data from '../../../utils/data/data1.json'
 import Ap from '../../../components/Ap/Ap'
-import imageSlide from '../../../utils/dataSliderImage/ApData'
+import imageSlide from '../../../utils/dataSliderImage/Ap2Data'
 
 function ThreeDModelling() {
   const [visibleSection, setVisibleSection] = useState(null);
@@ -12,11 +14,15 @@ function ThreeDModelling() {
 
   return (
     <div className='FloorPlanConversion'>
-      <h1 className='head1'>Dynamic 3D Modeling Services by GigaLego Construction</h1>
+      
+      <div className='s'>
+        <h1 className='head1'>Dynamic 3D Modeling Services by GigaLego Construction</h1>
+        <Ap imageSlide={imageSlide}/>
+        <Slider cardsData={data} />
+      </div>
 
       <div className='content'>
         <h2 onClick={() => toggleSection('section1')}>Bring Your Designs to Life with Expert 3D Modeling</h2>
-        <Ap imageSlide={imageSlide}/>
 
         {visibleSection === 'section1' && (
           <div className='p1'>
