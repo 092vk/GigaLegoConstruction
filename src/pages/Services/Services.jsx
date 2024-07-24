@@ -3,7 +3,7 @@ import './Services.css'
 import Cards from '../../components/Cards/Cards'
 import dataS from '../../utils/sliderServices.json'
 import Ap from '../../components/Ap/Ap'
-import imageSlide from '../../utils/dataSliderImage/ApData'
+import imageSlide from '../../utils/dataSliderImage/SdataImageSlide'
 
 function Services() {
   return (

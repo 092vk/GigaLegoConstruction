@@ -8,15 +8,15 @@ const imageSlide =[
     {
         'url':'./r3.png'
     },
-    // {
-    //     'url':'./020C.jpeg'
-    // },
-    // {
-    //     'url':'./021C.jpeg'
-    // },
-    // {
-    //     'url':'./022C.jpeg'
-    // },
+    {
+        'url':'./h1.jpeg'
+    },
+    {
+        'url':'./h2.jpeg'
+    },
+    {
+        'url':'./h3.jpeg'
+    },
 
 ]
 

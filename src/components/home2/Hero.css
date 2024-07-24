@@ -28,6 +28,12 @@
     font-size: 3.8rem;
     line-height: 4rem;
     margin-bottom: 2rem;
+    text-shadow: 
+        -1px -1px 0 #000,  
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+    
 }
 
 .search-bar{
