@@ -9,26 +9,37 @@
 }
 
 .descriptione{
-    width: 600px;
+    width: 100vw;
+    height: 100vh;
     position: absolute;
     z-index: 999;
-    color: aliceblue;
-    top: 20%;
-    left: 15%;
+    color: rgb(160, 170, 179);
+    top: 0%;
+    left: 0%;
+    background-color: rgba(0,0,0,0.8);
 }
 
 .h11{
-    font-size: 46px;
+    margin-bottom: 30px;
+    font-size: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 13%;
 }
 .p11{
-    font-size: 22px;
+    font-size: 1.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 8rem;
 }
 
 .carousel-button{
     display: flex;
     align-items:center ;
     padding-top: 2rem;
-    /* justify-content: center; */
+    justify-content: center;
 }
 
 .carousel-button span{
