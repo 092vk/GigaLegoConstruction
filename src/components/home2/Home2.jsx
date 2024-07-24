@@ -42,7 +42,7 @@ function Home2(){
                     <div className="carousel-button">
                         {
                             imageSlide.map((imageSlide,currentState)=>(
-                                <span key={currentState} onClick={()=> goToNext(currentState)}>1</span>
+                                <span key={currentState} onClick={()=> goToNext(currentState)}></span>
                             ))
                         }
                     </div>
