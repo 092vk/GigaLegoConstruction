@@ -3,10 +3,10 @@ const imageSlide =[
         'url':'../../../public/r1.png'
     },
     {
-        'url':'../../../public/r2.png'
+        'url':'../../../public/01C.jpeg'
     },
     {
-        'url':'../../../public/r3.png'
+        'url':'../../../public/02C.jpeg'
     }
 ]
 
