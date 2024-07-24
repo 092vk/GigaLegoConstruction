@@ -2,22 +2,28 @@
     {
         "Name":"Raj Soni",
         "Post":"CEO and Founder of GigaLegoConstruction",
-        "Info":"He works in tech , He is good in web and also knows ml.He is a Electronics Engineer .",
+        "Info":"He is a Civil Engineer with creative and innovative mindset.",
         "img":"./raj.jpeg"
 
     },
     {
-        "Name":"Vivek Kumar Ray",
+        "Name":"Vivek Kumar",
         "Post":"Tech Lead",
-        "Info":"He works in tech , He is good in web and also knows ml.He is a Electronics Engineer .",
+        "Info":"He works in Tech with years of extensive experience in Web and ML .",
         "img":"./vk.png"
 
     },
     {
-        "Name":"Saurabh Chaudhary",
+        "Name":"MS Chaudhary",
         "Post":"Head Marketing Team",
-        "Info":"He works in tech , He is good in web and also knows ml.He is a Electronics Engineer .",
-        "img":"./saurabh.jpeg"
+        "Info":"He works in Marketing & Managing Team .",
+        "img":"./nadella5.jpeg"
+    },
+    {   
+        "Name":"Balbir Singh",
+        "Post":"Construction Team",
+        "Info":"He works in the Construction Team and Architect Team.",
+        "img":"./nadella5.jpeg"
 
     },
     {

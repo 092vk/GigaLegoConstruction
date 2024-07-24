@@ -90,48 +90,43 @@ function App() {
 
               <Route path='/Teams' element={<Teams/>}/>
 
+              {/* <Route path="/Teams/SubTeam1" element={<Teams/>} />
+              <Route path="/Teams/SubTeam2" element={<Teams/>} />
+              <Route path="/Teams/SubTeam3" element={<Teams/>} /> */}
+
+              {/* <Route path="/Market/Option1" element={<Market/>} />
+              <Route path="/Market/Option2" element={<Market/>} />
+              <Route path="/Market/Option3" element={<Market/>} /> */}
 
 
+              <Route path="/Architectural/RevitServices" element={<RevitServices/>} />
+              <Route path="/Architectural/CadConversion" element={<CadConversion/>} />
+              <Route path="/Architectural/FloorPlanConversion" element={<FloorPlanConversion/>} />
+              <Route path="/Architectural/PresentationDrawings" element={<PresentationDrawings/>} />
+              <Route path="/Architectural/2DDrafting" element={<TwoDDrafting/>} />
+              <Route path="/Architectural/3DModeling" element={<ThreeDModelling/>} />
+              <Route path="/Architectural/3DWalkThroughAnimation" element={<ThreeDWalkThroughAnimation/>} />
+              <Route path="/Architectural/GlassShopDrawings" element={<GlassShopDrawings/>} />
 
+              <Route path="/Civil/ConstructionDrawings" element={<ConstructionDrawings/>} />
+              <Route path="/Civil/GeospatialServices" element={<GeoSpatialServices/>} />
+              <Route path="/Civil/ConstructionCostEstimation" element={<ConstructionCostEstimation/>} />
+              <Route path="/Civil/DrainageSewarageDesign" element={<DrainageSewerageDesign/>} />
+              <Route path="/Civil/StructuralDesignDrafting" element={<StructuralDesignDrafting/>} />
+              <Route path="/Civil/StructuralSteelDetailing" element={<StructuralSteelDetailing/>} />
+              <Route path="/Civil/FabricationDrawing" element={<FabricationDrawing/>} />
+              <Route path="/Civil/VolumetricEstimation" element={<VolumetricEstimation/>} />
+              <Route path="/Civil/ProjectProcessManagement" element={<ProjectProcessManagement/>} />
+              <Route path="/Civil/ConstructionInspection" element={<ConstructionInspection/>} />
 
-
-        <Route path="/Teams/SubTeam1" element={<Teams/>} />
-        <Route path="/Teams/SubTeam2" element={<Teams/>} />
-        <Route path="/Teams/SubTeam3" element={<Teams/>} />
-
-        <Route path="/Market/Option1" element={<Market/>} />
-        <Route path="/Market/Option2" element={<Market/>} />
-        <Route path="/Market/Option3" element={<Market/>} />
-
-
-        <Route path="/Architectural/RevitServices" element={<RevitServices/>} />
-        <Route path="/Architectural/CadConversion" element={<CadConversion/>} />
-        <Route path="/Architectural/FloorPlanConversion" element={<FloorPlanConversion/>} />
-        <Route path="/Architectural/PresentationDrawings" element={<PresentationDrawings/>} />
-        <Route path="/Architectural/2DDrafting" element={<TwoDDrafting/>} />
-        <Route path="/Architectural/3DModeling" element={<ThreeDModelling/>} />
-        <Route path="/Architectural/3DWalkThroughAnimation" element={<ThreeDWalkThroughAnimation/>} />
-        <Route path="/Architectural/GlassShopDrawings" element={<GlassShopDrawings/>} />
-
-        <Route path="/Civil/ConstructionDrawings" element={<ConstructionDrawings/>} />
-        <Route path="/Civil/GeospatialServices" element={<GeoSpatialServices/>} />
-        <Route path="/Civil/ConstructionCostEstimation" element={<ConstructionCostEstimation/>} />
-        <Route path="/Civil/DrainageSewarageDesign" element={<DrainageSewerageDesign/>} />
-        <Route path="/Civil/StructuralDesignDrafting" element={<StructuralDesignDrafting/>} />
-        <Route path="/Civil/StructuralSteelDetailing" element={<StructuralSteelDetailing/>} />
-        <Route path="/Civil/FabricationDrawing" element={<FabricationDrawing/>} />
-        <Route path="/Civil/VolumetricEstimation" element={<VolumetricEstimation/>} />
-        <Route path="/Civil/ProjectProcessManagement" element={<ProjectProcessManagement/>} />
-        <Route path="/Civil/ConstructionInspection" element={<ConstructionInspection/>} />
-
-        <Route path="/BIM/BIMForInfrastructure" element={<BIMForInfrastructure/>} />
-        <Route path="/BIM/ScanToBIM" element={<ScanToBIM/>} />
-        <Route path="/BIM/ShopDrawingExtraction" element={<ShopDrawingExtraction/>} />
-        <Route path="/BIM/BIMModeling" element={<BIMModelling/>} />
-        <Route path="/BIM/RevitFamilyCreation" element={<RevitFamilyCreation/>} />
-        <Route path="/BIM/BIMCoordination" element={<BIMCoordination/>} />
-        <Route path="/BIM/ClashDetection" element={<ClashDetection/>} />
-        <Route path="/BIM/LeanConstruction" element={<LeanConstruction/>} />
+              <Route path="/BIM/BIMForInfrastructure" element={<BIMForInfrastructure/>} />
+              <Route path="/BIM/ScanToBIM" element={<ScanToBIM/>} />
+              <Route path="/BIM/ShopDrawingExtraction" element={<ShopDrawingExtraction/>} />
+              <Route path="/BIM/BIMModeling" element={<BIMModelling/>} />
+              <Route path="/BIM/RevitFamilyCreation" element={<RevitFamilyCreation/>} />
+              <Route path="/BIM/BIMCoordination" element={<BIMCoordination/>} />
+              <Route path="/BIM/ClashDetection" element={<ClashDetection/>} />
+              <Route path="/BIM/LeanConstruction" element={<LeanConstruction/>} />
 
             </Route>
           </Routes>

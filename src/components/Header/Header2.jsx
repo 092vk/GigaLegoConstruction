@@ -11,20 +11,20 @@ function Header() {
                 
                 <div className="dropdown">
                     <Link to={'/Teams'} className="dropbtn">Teams</Link>
-                    <div className="dropdown-content">
+                    {/* <div className="dropdown-content">
                         <Link to={'/Teams/SubTeam1'}>SubTeam 1</Link>
                         <Link to={'/Teams/SubTeam2'}>SubTeam 2</Link>
                         <Link to={'/Teams/SubTeam3'}>SubTeam 3</Link>
-                    </div>
+                    </div> */}
                 </div>
 
                 <div className="dropdown">
                     <Link to={'/Market'} className="dropbtn">Market</Link>
-                    <div className="dropdown-content">
+                    {/* <div className="dropdown-content">
                         <Link to={'/Market/Option1'}>Option 1</Link>
                         <Link to={'/Market/Option2'}>Option 2</Link>
                         <Link to={'/Market/Option3'}>Option 3</Link>
-                    </div>
+                    </div> */}
                 </div>
 
                 <div className="dropdown">

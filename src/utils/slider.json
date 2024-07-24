@@ -1,13 +1,13 @@
 [
   {
-    "name": "Aliva Priva Jardin",
+    "name": "Revit Services",
     "price": "47,043",
     "detail": "Jakarta Garden City Street, Cakung. Pulo Gadung, Jakarta Timur, DKI Jakarta",
     "image": "./r1.png",
     "link":"./Architectural/RevitServices"
   },
   {
-    "name": "Asatti Garden City",
+    "name": "Floor Planning",
     "price": "66,353",
     "detail": "Pahlawan Street XVII No.215, Cinangka, Sawangan, Depok, Jawa Barat",
     "image": "./r2.png"
