@@ -12,6 +12,22 @@
     margin-top: 1.5rem;
     font-weight: 500;
 }
+
+.f-Rhead{
+    padding-left: 2rem;
+}
+.socialLink{
+    height: 5vh;
+    width: auto;
+}
+.socialLink:hover{
+    transform: scale(1.4);
+}
+
+.Rc{
+    align-items: center!important;
+}
+
 @media (max-width: 768px) {
     .f-container{
         justify-content: center;
@@ -24,3 +40,4 @@
         justify-content: center;
     }
 }
+

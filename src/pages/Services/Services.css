@@ -11,6 +11,7 @@
   
 /* Hero Section Styles */
 .services-hero {
+    margin-top: 10vh;
     margin-bottom: 40px;
     color: #000;
 }

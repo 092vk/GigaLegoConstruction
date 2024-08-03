@@ -11,9 +11,9 @@
 .descriptione{
     width: 600px;
     position: absolute;
-    z-index: 999;
+    z-index: 1;
     color: aliceblue;
-    top: 20%;
+    top: 18%;
     left: 15%;
 }
 
@@ -24,7 +24,26 @@
     font-size: 22px;
 }
 
+.mywords{
+    color: rgb(167, 238, 238);
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+
+.Ltext {
+    color: orange;
+    font-size: 5.5rem;
+    font-weight: 600;
+    transition: transform 0.3s ease, text-shadow 0.3s ease;
+  }
+  
+  .Ltext:hover {
+    transform: rotate(-10turn); /* Slight tilt effect */
+    text-shadow: 0 0 5px rgba(255, 165, 0, 0.5), 0 0 10px rgba(255, 165, 0, 0.5), 0 0 15px rgba(255, 165, 0, 0.5);
+  }
+  
 .carousel-button{
+    padding-left: 2rem;
     display: flex;
     align-items:center ;
     padding-top: 2rem;
@@ -32,8 +51,8 @@
 }
 
 .carousel-button span{
-    width: 45px;
-    height: 8px;
+    width: 20px;
+    height: 4px;
     background-color: rgb(179,178,176);
     margin-left: 10px;
     border-radius: 10px;

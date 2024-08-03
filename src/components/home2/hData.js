@@ -6,9 +6,6 @@ const imageSlide =[
         'url':'./r2.png'
     },
     {
-        'url':'./r3.png'
-    },
-    {
         'url':'./h1.jpeg'
     },
     {
@@ -17,7 +14,6 @@ const imageSlide =[
     {
         'url':'./h3.jpeg'
     },
-
 ]
 
 export default imageSlide;

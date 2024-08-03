@@ -9,6 +9,8 @@
 }
 
 .container {
+  margin-top: 25vh;
+  margin-bottom: 20vh;
   display: flex;
   flex-direction: row;
   width: 100%;

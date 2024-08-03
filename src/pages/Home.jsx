@@ -6,7 +6,8 @@ import Value from '../components/Value/Value'
 import Contact from '../components/Contact/Contact'
 import data from '../utils/slider.json'
 import Home2 from '../components/home2/Home2'
-
+import PreFooter from '../components/PreFooter/PreFooter'
+import Massonary from '../components/Massonary/Massonary'
 
 function Home() {
   return (
@@ -17,6 +18,8 @@ function Home() {
         <Cards data={data}/>
         <Value/>
         <Contact/>
+        <PreFooter/>
+        <Massonary/>
         
         {/* <div>
           <div className='white-gradient'/>

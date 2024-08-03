@@ -1,13 +1,15 @@
 .h-wrapper{
     
-    background-color: var(--black);
+    /* background-color:#024d87; */
     /* color: white; */
     /* position: fixed;
     z-index: 100;
     width: 100%;
     top: 0;*/
     z-index: 1;
+    position: absolute;
     display:absolute;
+    left: 15vw;
 } 
 
 
@@ -34,4 +36,8 @@
 
 .h-menu>*:hover {
     cursor: pointer;
+}
+
+.Himg{
+    margin-right: 5vw;
 }

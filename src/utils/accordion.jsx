@@ -5,21 +5,27 @@ import { MdCancel, MdAnalytics } from "react-icons/md";
 const data = [
   {
     icon: <HiShieldCheck/>,
-    heading: "Best interest rates on the market",
+    heading: "Client-Centric Approach",
     detail:
-      "Exercitation in fugiat est ut ad ea cupidatat ut in cupidatat occaecat ut occaecat consequat est minim minim esse tempor laborum consequat esse adipisicing eu reprehenderit enim.",
+      "We provide personalized design solutions tailored to the specific needs and preferences of clients.",
   },
   {
     icon: <MdCancel />,
-    heading: "Prevent unstable prices",
+    heading: "Cost Management",
     detail:
-      "Exercitation in fugiat est ut ad ea cupidatat ut in cupidatat occaecat ut occaecat consequat est minim minim esse tempor laborum consequat esse adipisicing eu reprehenderit enim.",
+      " Efficient cost management practices to ensure projects are delivered within budget without compromising quality.",
   },
   {
     icon: <MdAnalytics />,
-    heading: "Best price on the market",
+    heading: "High Quality Craftsmanship",
     detail:
-      "Exercitation in fugiat est ut ad ea cupidatat ut in cupidatat occaecat ut occaecat consequat est minim minim esse tempor laborum consequat esse adipisicing eu reprehenderit enim.",
+      "Commitment to superior craftsmanship and attention to detail in all construction projects.",
+  },
+  {
+    icon: <HiShieldCheck/>,
+    heading: "Safety Standards",
+    detail:
+      "Adherence to the highest safety standards and regulations to ensure the well-being of workers and occupants.",
   },
 ];
 export default data;

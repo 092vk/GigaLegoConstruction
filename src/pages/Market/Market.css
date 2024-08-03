@@ -9,15 +9,17 @@
     flex-direction: column;
     align-items: center;
 }
-
+.market-div{
+    margin-top: 10vh;
+}
 .market-wrapper h1 {
-    font-size: 2.5rem;
+    font-size: 3.5rem;
     color: rgb(21, 68, 139);
     margin-bottom: 2rem;
     text-align: center;
     border-bottom: 3px solid rgb(21, 68, 139);
     padding-bottom: 0.5rem;
-    width: 80%;
+    width: 100%;
     max-width: 800px;
 }
 

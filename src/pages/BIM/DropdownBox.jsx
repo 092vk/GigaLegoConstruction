@@ -9,7 +9,7 @@ function DropdownBox({ info }) {
         <div className="dropdown-box">
           <p>Service/Consultancy</p>
           <button className='button'>Know More</button>
-          <button className='button'>Book the service</button>
+          <a href="./ContactUs"><button className='button'>Book the service</button></a>
         </div>
 
         {/* Box 2: Positioned Below the First Box */}

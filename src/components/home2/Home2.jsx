@@ -12,7 +12,7 @@ function Home2(){
 
     useEffect(()=>{
         const timer = setTimeout(()=>{
-            if(currentState === 5){
+            if(currentState === 4){
                 setCurrentState(0)
             }
             else{
@@ -44,14 +44,14 @@ function Home2(){
 
                         <div className="flexColstart hero-left">
                             <div className="hero-title">
-                                <div className='orange-circle'></div>
-                                <h1>GIGA LEGO 
-                                Construction</h1>
+                                
+                                <h1>GIGA <span className='Ltext'>LEGO</span> CONSTRUCTION</h1>
                             </div>
 
                             <div className="flexColStart hero-des">
-                                <span className='secondaryText'>A website dedicated to fullfill the needs of modern indian to build best</span>
-                                <span className='secondaryText'>
+                                <div className='orange-circle'></div>
+                                <span className='mywords'>A website dedicated to fullfill the needs of modern indian to build best</span>
+                                <span className='mywords'>
                                     We care about your dreams and we aim to make them true
                                 </span>
                             </div>
@@ -60,37 +60,35 @@ function Home2(){
                                 <HiLocationMarker color="var(--blue)" size={25}/>
                                 <input type="text" placeholder='Search Here'/>
                                 <button className='button'>Search</button>
-                            </div>
+                            </div> 
 
                             <div className='flexCenter stats'>
-                                <div className="flexColCenter stat">
-                                    <span>
-                                        <CountUp start={8800} end={9000} duration={4}/>
-                                        <span>+</span>
-                                    </span>
-                                    <span className='secondaryText'>Site Visits</span>
+                            <div className="flexColCenter stat">
+                                <span>
+                                    <CountUp start={8800} end={9000} duration={4}/>
+                                    <span>+</span>
+                                </span>
+                                <span className='mywords'>Site Visits</span>
 
-                                </div>
-
-                                <div className="flexColCenter stat">
-                                    <span>
-                                        <CountUp start={1950} end={2000} duration={4}/>
-                                        <span>+</span>
-                                    </span>
-                                    <span className='secondaryText'>Happy Customers</span>
-
-                                </div>
-
-                                <div className="flexColCenter stat">
-                                    <span>
-                                        <CountUp start={5} end={200} duration={5}/>
-                                        <span>+</span>
-                                    </span>
-                                    <span className='secondaryText'>Structure Constructed</span>
-
-                                </div>
                             </div>
 
+                            <div className="flexColCenter stat">
+                                <span>
+                                    <CountUp start={1950} end={2000} duration={4}/>
+                                    <span>+</span>
+                                </span>
+                                <span className='mywords'>Happy Customers</span>
+
+                            </div>
+
+                            <div className="flexColCenter stat">
+                                <span>
+                                    <CountUp start={5} end={200} duration={5}/>
+                                    <span>+</span>
+                                </span>
+                                <span className='mywords'>Structure Constructed</span>
+
+                            </div>
                         </div>
 
                         {/* <div className="flexCenter hero-right">
@@ -98,7 +96,10 @@ function Home2(){
                                 <img src="./HeroImage.jpg" alt="" />
                             </div>
                         </div> */}
+
                         </div>
+
+                    </div>
                     </div>
                     <div className="carousel-button">
                         {

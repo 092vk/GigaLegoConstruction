@@ -1,0 +1,17 @@
+.MassonaryWrapper{
+    margin-left: 14vw;
+    margin-right: 14vw;
+}
+
+.Mimg{
+    display: block;
+    padding: 10px;
+    border-radius: 25px;
+    transition: transform 0.3s ease ;
+}
+
+.Mimg:hover{
+    transform: scale(1.07);
+}
+
+

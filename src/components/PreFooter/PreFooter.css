@@ -1,0 +1,33 @@
+.PreFooterWrapper{
+    margin-left: 10vw;
+    padding:10vw;
+}
+
+
+.search-bar{
+    background-color: white;
+    border-radius: 10px;
+    border: 3px solid rgba(120,120,120,0.374);
+    padding: 0.5rem 1rem;
+    justify-content:space-between!important;
+    width: 80%;
+    margin-top: 1rem;
+}
+
+.search-bar>input{
+    border: none;
+    outline: none;
+}
+
+.stats{
+    width: 100%;
+    justify-content: space-between;
+}
+
+.stat>:nth-child(1){
+    font-size: 2rem;
+}
+
+.stat>:nth-child(1)>:last-child{
+    color: orange;
+}

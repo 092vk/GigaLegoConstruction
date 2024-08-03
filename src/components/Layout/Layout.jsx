@@ -10,7 +10,7 @@ function Layout() {
     <>
     <div style={{background:'var(--black)',overflow:'hidden'}}>
         <Header/>
-        <Header2/>
+        {/* <Header2/> */}
         <Outlet/>
     </div>
     <Footer/>

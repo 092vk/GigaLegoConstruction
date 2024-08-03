@@ -4,6 +4,7 @@ import './AboutUs.css'
 function AboutUs() {
   return (
     <div className='info'>
+      
         <div className='subheadings'> About Us </div>
         
         <div className='aboutContent'>
