@@ -33,10 +33,18 @@ function Header() {
         return () => unsubscribe();
     }, []);
 
+
+      // Function to close the navbar
+      const handleLinkClick = () => {
+        if (navRef.current) {
+            navRef.current.classList.remove("responsive_nav");
+        }
+    };
+
     return (
         <section className='h-wrapper'>
             <div className='flexCenter paddings innerWidth h-container '>
-                <Link to='/'>
+                <Link to='/' onClick={handleLinkClick}>
                     <img src="./newLogo2.svg" alt="logi" width={100} className='Himg'/>
                     <img src="./G4.svg" alt="G" width={100} className='CHimg'/>
                     <div className='GL-container'>
@@ -47,19 +55,19 @@ function Header() {
 
                 <nav className='navRef' ref={navRef}>
                 <div className="flexCenter h-menu">
-                    <NavLink to={'/'}>Home</NavLink>
-                    <NavLink to={'/AboutUs'}>About Us</NavLink>
+                    <NavLink to={'/'} onClick={handleLinkClick}>Home</NavLink>
+                    <NavLink to={'/AboutUs'} onClick={handleLinkClick}>About Us</NavLink>
                     
-                    <NavLink to={'/ContactUs'}>Contact Us</NavLink>
+                    <NavLink to={'/ContactUs'} onClick={handleLinkClick}>Contact Us</NavLink>
 
 
                     <div className="dropdown">
-                        <Link to={'/Services'} className="dropbtn">Services</Link>
+                        <Link to={'/Services'} className="dropbtn" onClick={handleLinkClick}>Services</Link>
                         <div className="dropdown-content">
                            
-                            <Link to={'/Architectural'}>Architectural</Link>
-                            <Link to={'/Civil'}>Civil</Link>
-                            <Link to={'/BIM'}>BIM</Link>
+                            <Link to={'/Architectural'} onClick={handleLinkClick}>Architectural </Link>
+                            <Link to={'/Civil'} onClick={handleLinkClick}>Civil </Link>
+                            <Link to={'/BIM'} onClick={handleLinkClick}>BIM </Link>
                         </div>
                     </div>
 
@@ -116,7 +124,7 @@ function Header() {
 
 
                     <div className="dropdown">
-                        <Link to={'/Teams'} >Teams</Link>
+                        <Link to={'/Teams'} onClick={handleLinkClick}>Teams</Link>
                         {/* <div className="dropdown-content">
                             <Link to={'/Teams/SubTeam1'}>SubTeam 1</Link>
                             <Link to={'/Teams/SubTeam2'}>SubTeam 2</Link>
@@ -125,7 +133,7 @@ function Header() {
                     </div>
 
                     <div className="dropdown">
-                        <Link to={'/Market'} >Market</Link>
+                        <Link to={'/Market'} onClick={handleLinkClick}>Market</Link>
                         {/* <div className="dropdown-content">
                             <Link to={'/Market/Option1'}>Option 1</Link>
                             <Link to={'/Market/Option2'}>Option 2</Link>
@@ -134,7 +142,7 @@ function Header() {
                     </div>
 
                     <div className="dropdown">
-                        <Link to={'/Career'} >Career</Link>
+                        <Link to={'/Career'} onClick={handleLinkClick}>Career</Link>
                     </div>
 {/* 
                     <button className='nav-btn nav-close-btn' onClick={showNavbar}> 

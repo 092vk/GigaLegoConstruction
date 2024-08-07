@@ -130,6 +130,11 @@
         
     }
 
+    .image-container{
+        width: 17em;
+        height: 24em;
+    }
+
 }
 
 /* Extra small screens */
