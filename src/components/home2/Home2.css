@@ -11,9 +11,9 @@
 .descriptione{
     width: 600px;
     position: absolute;
-    z-index: 1;
+    z-index: 0.8;
     color: aliceblue;
-    top: 18%;
+    top: 22%;
     left: 15%;
 }
 
@@ -31,7 +31,7 @@
 }
 
 .Ltext {
-    color: orange;
+    color: #ffa500;
     font-size: 5.5rem;
     font-weight: 600;
     transition: transform 0.3s ease, text-shadow 0.3s ease;
@@ -43,7 +43,7 @@
   }
   
 .carousel-button{
-    padding-left: 2rem;
+    padding-left: 1rem;
     display: flex;
     align-items:center ;
     padding-top: 2rem;

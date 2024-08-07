@@ -45,7 +45,7 @@ function Home2(){
                         <div className="flexColstart hero-left">
                             <div className="hero-title">
                                 
-                                <h1>GIGA <span className='Ltext'>LEGO</span> CONSTRUCTION</h1>
+                                <h1>GIGA <span className='Ltext'>LEGO</span> CONSTRUCTIONS</h1>
                             </div>
 
                             <div className="flexColStart hero-des">
@@ -56,37 +56,40 @@ function Home2(){
                                 </span>
                             </div>
 
-                            <div className="flexLeft search-bar">
+
+                            <div className="search-bar flexLeft ">
                                 <HiLocationMarker color="var(--blue)" size={25}/>
-                                <input type="text" placeholder='Search Here'/>
+                                <input type="text" placeholder='Search Here' className='M3'/>
                                 <button className='button'>Search</button>
                             </div> 
 
                             <div className='flexCenter stats'>
-                            <div className="flexColCenter stat">
-                                <span>
-                                    <CountUp start={8800} end={9000} duration={4}/>
-                                    <span>+</span>
-                                </span>
-                                <span className='mywords'>Site Visits</span>
+                                <div className="flexColCenter stat">
+                                    <span>
+                                        <CountUp start={8800} end={9000} duration={4}/>
+                                        <span>+</span>
+                                    </span>
+                                    <span className='secondaryText'>Site Visits</span>
 
-                            </div>
+                                </div>
 
-                            <div className="flexColCenter stat">
-                                <span>
-                                    <CountUp start={1950} end={2000} duration={4}/>
-                                    <span>+</span>
-                                </span>
-                                <span className='mywords'>Happy Customers</span>
+                                <div className="flexColCenter stat">
+                                    <span>
+                                        <CountUp start={1950} end={2000} duration={4}/>
+                                        <span>+</span>
+                                    </span>
+                                    <span className='secondaryText'>Happy Customers</span>
 
-                            </div>
+                                </div>
 
-                            <div className="flexColCenter stat">
-                                <span>
-                                    <CountUp start={5} end={200} duration={5}/>
-                                    <span>+</span>
-                                </span>
-                                <span className='mywords'>Structure Constructed</span>
+                                <div className="flexColCenter stat">
+                                    <span>
+                                        <CountUp start={5} end={200} duration={5}/>
+                                        <span>+</span>
+                                    </span>
+                                    <span className='secondaryText'>Structure Constructed</span>
+
+                                </div>
 
                             </div>
                         </div>
@@ -95,20 +98,19 @@ function Home2(){
                             <div className="image-container">
                                 <img src="./HeroImage.jpg" alt="" />
                             </div>
-                        </div> */}
+                        </div>  */}
 
                         </div>
 
                     </div>
-                    </div>
-                    <div className="carousel-button">
+                     <div className="carousel-button">
                         {
                             imageSlide.map((imageSlide,currentState)=>(
                                 <span key={currentState} onClick={()=> goToNext(currentState)}></span>
                             ))
                         }
                     </div>
-                </div>
+                </div> 
             </div>
         </>
     )

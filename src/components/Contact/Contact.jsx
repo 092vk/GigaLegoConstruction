@@ -21,8 +21,8 @@ const Contact = () => {
 
           <div className="flexColStart contactModes">
             {/* first row */}
-            <div className="flexStart row">
-              <div className="flexColCenter mode">
+            <div className="M1 flexStart row ">
+              <div className="M2 flexColCenter mode">
                 <div className="flexStart">
                   <div className="flexCenter icon">
                     <MdCall size={25} />
@@ -35,7 +35,7 @@ const Contact = () => {
                 <div className="flexCenter button">Call now</div>
               </div>
 
-              <div className="flexColCenter mode">
+              <div className="M2 flexColCenter mode">
                 <div className="flexStart">
                   <div className="flexCenter icon">
                     <BsFillChatDotsFill size={25} />
@@ -50,8 +50,8 @@ const Contact = () => {
             </div>
 
             {/* second row */}
-            <div className="flexStart row">
-              <div className="flexColCenter mode">
+            <div className="M1 flexStart row">
+              <div className="M2 flexColCenter mode">
                 <div className="flexStart">
                   <div className="flexCenter icon">
                     <BsFillChatDotsFill size={25} />
@@ -64,7 +64,8 @@ const Contact = () => {
                 <div className="flexCenter button">Video Call now</div>
               </div>
 
-              <div className="flexColCenter mode">
+              
+              <div className="M2 flexColCenter mode">
                 <div className="flexStart">
                   <div className="flexCenter icon">
                     <HiChatBubbleBottomCenter size={25} />
@@ -76,6 +77,7 @@ const Contact = () => {
                 </div>
                 <div className="flexCenter button">Message now</div>
               </div>
+      
             </div>
           </div>
         </div>

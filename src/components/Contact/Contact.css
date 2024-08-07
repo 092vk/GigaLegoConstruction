@@ -47,8 +47,8 @@
   padding-right: 20px;
 }
 .c-right{
-  margin-top: 7rem;
-  margin-left:15rem;
+  margin-top: 7em;
+  margin-left:0em;
 }
 .orangeText {
   color: #ff8c00;
@@ -131,4 +131,14 @@
 
 .para{
   margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+  .M1 {
+    flex-direction: column;
+    
+  }
+  .M2{
+    margin-top: 2em;
+  }
 }

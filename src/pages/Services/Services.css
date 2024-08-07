@@ -1,8 +1,8 @@
 .services {
     text-align: center;
     padding: 60px 20px;
-    background-color: #eaf2f8; 
-    background: url(../../../public/services.png);
+    background-color:var(--black); 
+    /* background: url(../../../public/services.png); */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

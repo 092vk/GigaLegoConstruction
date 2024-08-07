@@ -1,12 +1,22 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState,useRef } from 'react';
 import './Header.css';
 import { BrowserRouter as Router, Route, Routes, Link, NavLink } from 'react-router-dom';
 import { auth } from '../auth/firebase'; // import the auth instance from firebase.js
 import ProfileMenu from '../ProfileMenu/ProfileMenu';
 
+//react-icons
+import {FaBars,FaTimes} from "react-icons/fa"
+
 function Header() {
+
+    const navRef = useRef();
+    const showNavbar = ()=>{
+        navRef.current.classList.toggle("responsive_nav");
+    }
+
     const [isAuthenticated, setIsAuthenticated] = useState(false);
     const [user, setUser] = useState(null);
+
 
     useEffect(() => {
         const unsubscribe = auth.onAuthStateChanged((user) => {
@@ -27,9 +37,15 @@ function Header() {
         <section className='h-wrapper'>
             <div className='flexCenter paddings innerWidth h-container '>
                 <Link to='/'>
-                    <img src="./logiGiga.jpeg" alt="logi" width={100} className='Himg'/>
+                    <img src="./newLogo2.svg" alt="logi" width={100} className='Himg'/>
+                    <img src="./G4.svg" alt="G" width={100} className='CHimg'/>
+                    <div className='GL-container'>
+                        <span className='G'>GIGA</span>
+                        <span className='L'>  LEGO</span>
+                    </div>
                 </Link>
 
+                <nav className='navRef' ref={navRef}>
                 <div className="flexCenter h-menu">
                     <NavLink to={'/'}>Home</NavLink>
                     <NavLink to={'/AboutUs'}>About Us</NavLink>
@@ -37,8 +53,17 @@ function Header() {
                     <NavLink to={'/ContactUs'}>Contact Us</NavLink>
 
 
+                    <div className="dropdown">
+                        <Link to={'/Services'} className="dropbtn">Services</Link>
+                        <div className="dropdown-content">
+                           
+                            <Link to={'/Architectural'}>Architectural</Link>
+                            <Link to={'/Civil'}>Civil</Link>
+                            <Link to={'/BIM'}>BIM</Link>
+                        </div>
+                    </div>
 
-                    {/* <div className="dropdown">
+                    <div className="dropdown">
                     <Link to={'/Architectural'} className="dropbtn">Architectural</Link>
                     <div className="dropdown-content">
                             <Link to={'/Architectural/CadConversion'}>Cad Conversion</Link>
@@ -84,22 +109,14 @@ function Header() {
                         <Link to={'/BIM/LeanConstruction'}>Lean Construction</Link>
                         
                       </div>
-                    </div> */}
-
-
-                    <div className="dropdown">
-                        <Link to={'/Services'} className="dropbtn">Services</Link>
-                        <div className="dropdown-content">
-                           
-                            <Link to={'/Teams/SubTeam1'}>SubTeam 1</Link>
-                            <Link to={'/Teams/SubTeam2'}>SubTeam 2</Link>
-                            <Link to={'/Teams/SubTeam3'}>SubTeam 3</Link>
-                        </div>
                     </div>
 
 
+                   
+
+
                     <div className="dropdown">
-                        <Link to={'/Teams'} className="dropbtn">Teams</Link>
+                        <Link to={'/Teams'} >Teams</Link>
                         {/* <div className="dropdown-content">
                             <Link to={'/Teams/SubTeam1'}>SubTeam 1</Link>
                             <Link to={'/Teams/SubTeam2'}>SubTeam 2</Link>
@@ -108,7 +125,7 @@ function Header() {
                     </div>
 
                     <div className="dropdown">
-                        <Link to={'/Market'} className="dropbtn">Market</Link>
+                        <Link to={'/Market'} >Market</Link>
                         {/* <div className="dropdown-content">
                             <Link to={'/Market/Option1'}>Option 1</Link>
                             <Link to={'/Market/Option2'}>Option 2</Link>
@@ -117,8 +134,12 @@ function Header() {
                     </div>
 
                     <div className="dropdown">
-                        <Link to={'/Career'} className="dropbtn">Career</Link>
+                        <Link to={'/Career'} >Career</Link>
                     </div>
+{/* 
+                    <button className='nav-btn nav-close-btn' onClick={showNavbar}> 
+                        <FaTimes/>
+                    </button> */}
 
 
                     {!isAuthenticated ? (
@@ -131,6 +152,10 @@ function Header() {
                     )}
 
                 </div>
+                </nav>
+                <button className='nav-btn' onClick={showNavbar}> 
+                    <FaBars/>
+                </button>
             </div>
         </section>
     );

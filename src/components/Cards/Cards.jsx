@@ -4,6 +4,9 @@ import './Cards.css'
 import { Swiper, SwiperSlide, useSwiper } from 'swiper/react'
 import 'swiper/css'
 
+import 'swiper/css/autoplay'; // Import the CSS for Autoplay module
+import { Autoplay } from 'swiper/modules';
+
 // import data from '../../utils/slider.json'
 
 import { sliderSettings } from '../../utils/common'
@@ -18,7 +21,10 @@ function Cards({ data }) {
           <span className='primaryText'>Services We Provide</span>
         </div>
 
-        <Swiper {...sliderSettings}>
+        <Swiper 
+          modules={[Autoplay]}
+          {...sliderSettings}
+        >
           <SliderButtons />
           {
             data ? data.map((card, i) => (

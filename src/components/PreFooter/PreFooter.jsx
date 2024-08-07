@@ -10,7 +10,7 @@ function PreFooter() {
     <div className='PreFooterWrapper'>
         <div className="flexLeft search-bar">
             <HiLocationMarker color="var(--blue)" size={25}/>
-            <input type="text" placeholder='Search Here'/>
+            <input type="text" placeholder='Search Here' className='M3'/>
             <button className='button'>Search</button>
         </div> 
 

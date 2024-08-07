@@ -20,13 +20,13 @@
 
 .hero-title{
     position: relative;
-    z-index: 1;
+    /* z-index: 1; */
 }
 
 .hero-title>h1{
-    width: 55vw;
+    width: 60vw;
     font-weight: 600;
-    font-size: 4.5rem;
+    font-size: 4rem;
     line-height: 4rem;
     margin-bottom: 2rem;
     /* text-shadow: 
@@ -69,8 +69,8 @@
 /* right side */
 
 .image-container{
-    width: 30rem;
-    height: 30rem;
+    width: 23em;
+    height: 30em;
     overflow: hidden;
     border-radius: 15rem 15rem 0 0;
     border: 8px solid rgba(26, 26, 25, 0.12);
@@ -80,4 +80,76 @@
 .image-container>img{
     width: 100%;
     height: 100%;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .hero-title > h1 {
+        position: relative;
+        right: 1em;
+        width: 80vw; /* Increase width to fit smaller screens */
+        font-size: 2.5rem; /* Adjust font size for smaller screens */
+        line-height: 3rem; /* Adjust line height for smaller screens */
+        margin-bottom: 1.5rem; /* Adjust margin for smaller screens */
+    }
+
+    .hero-title .Ltext{
+        font-size: 3.5rem;
+        font-weight: 600;
+    }
+
+    .mywords{
+        display: none;
+        position: relative;
+        right: 0.5em;
+    }
+
+    .search-bar{
+        width: 45%!important;
+        height: 8vh!important;
+        position: relative!important;
+        left: -2rem !important;
+    }
+
+    .search-bar .button{
+        padding: 0.3rem;
+        position: relative;
+        top: ;
+        left: ;
+
+    }
+    .search-bar input{
+        width: 30% !important;
+        font-size: 10px !important;
+        
+    }
+
+    .stats{
+        position: relative!important;
+        left: -2rem !important;
+        
+    }
+
+}
+
+/* Extra small screens */
+@media (max-width: 400px) {
+    .hero-title > h1 {
+        width: 90vw; /* Further increase width for very small screens */
+        font-size: 2rem; /* Further reduce font size */
+        line-height: 2.5rem; /* Further adjust line height */
+        margin-bottom: 1rem; /* Further adjust margin */
+    }
+
+    .hero-title .Ltext{
+        font-size: 3rem;
+        font-weight: 600;
+    }
+
+    .mywords{
+        display: none;
+        position: relative;
+        left: -2rem;
+    }
+
 }

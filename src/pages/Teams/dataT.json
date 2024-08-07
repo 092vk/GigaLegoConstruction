@@ -25,33 +25,6 @@
         "Info":"He works in the Construction Team and Architect Team.",
         "img":"./nadella5.jpeg"
 
-    },
-    {
-        "Name":"Apiksha Pandita",
-        "Post":"Freelancer Tech Team",
-        "Info":"He works in tech , He is good in web and also knows ml.He is a Electronics Engineer .",
-        "img":"./nadella5.jpg"
-
-    },
-    {
-        "Name":"Harsh Kumar ",
-        "Post":"Tech Lead & Website",
-        "Info":"He works in tech , He is good in web and also knows ml.He is a Electronics Engineer .",
-        "img":"./nadella5.jpg"
-
-    },
-    {
-        "Name":"Neelam Kumari",
-        "Post":"Architect",
-        "Info":"He works in tech , He is good in web and also knows ml.He is a Electronics Engineer .",
-        "img":"./nadella5.jpg"
-
-    },
-    {
-        "Name":"Raj Yadav",
-        "Post":"lead",
-        "Info":"he leads the team",
-        "img":"./nadella5.jpg"
     }
     
 ]

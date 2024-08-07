@@ -31,3 +31,13 @@
 .stat>:nth-child(1)>:last-child{
     color: orange;
 }
+
+.M3{
+    width: 30vw;
+}
+
+@media only screen and (max-width: 600px) {
+    .PreFooterWrapper{
+        display: none;
+    }
+}

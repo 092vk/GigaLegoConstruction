@@ -1,7 +1,9 @@
 .h-menu {
+    width: 80vw;
     position: relative;
-    z-index: 1;
-    display: absolute;
+    z-index: 1000;
+    bottom: 11em;
+    left: 13em;
   }
   
   .dropdown {
