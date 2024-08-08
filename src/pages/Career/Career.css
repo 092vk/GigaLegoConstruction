@@ -113,4 +113,9 @@
   .emailForm {
     padding: 20px;
   }
+
+  .left-section h1 {
+    word-wrap: break-word;
+  }
+
 }

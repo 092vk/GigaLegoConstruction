@@ -38,7 +38,7 @@ function ContactUs() {
     <div className='ContactUs'>
       <div className='container'>
         <div className='left-section'>
-          <h1>Career@GigaLegoConstruction</h1>
+          <h1>Career@ GigaLego Constructions</h1>
           <div className='heading2'>Join Our Team at GigaLego Construction</div>
           <div className='heading3'>
             At GigaLego Construction, we are passionate about transforming visions into reality. As a startup specializing in architectural, civil, and BIM services, we offer a dynamic and innovative work environment where you can make a significant impact. We are looking for talented individuals who share our commitment to excellence and customer satisfaction to join our growing team.
