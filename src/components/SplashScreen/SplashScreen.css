@@ -1,0 +1,26 @@
+.splash-screen {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background-color: #161212; /* Change to your preferred background color */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000; /* Make sure it's above all other content */
+  }
+  
+  .rotating-image {
+    width: 200px; /* Adjust size as needed */
+    height: 200px;
+    animation: rotate 2s linear infinite; /* Rotating effect */
+  }
+  
+  @keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  

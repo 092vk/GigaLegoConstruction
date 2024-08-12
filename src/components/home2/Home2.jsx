@@ -69,7 +69,7 @@ function Home2(){
                                         <CountUp start={8800} end={9000} duration={4}/>
                                         <span>+</span>
                                     </span>
-                                    <span className='secondaryText'>Site Visits</span>
+                                    <span className='mywords'>Site Visits</span>
 
                                 </div>
 
@@ -78,7 +78,7 @@ function Home2(){
                                         <CountUp start={1950} end={2000} duration={4}/>
                                         <span>+</span>
                                     </span>
-                                    <span className='secondaryText'>Happy Customers</span>
+                                    <span className='mywords'>Happy Customers</span>
 
                                 </div>
 
@@ -87,7 +87,7 @@ function Home2(){
                                         <CountUp start={5} end={200} duration={5}/>
                                         <span>+</span>
                                     </span>
-                                    <span className='secondaryText'>Structure Constructed</span>
+                                    <span className='mywords'>Structure Constructed</span>
 
                                 </div>
 

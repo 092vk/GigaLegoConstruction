@@ -54,11 +54,23 @@ import Login from './components/auth/Login'
 import Register from './components/auth/Register'
 
 
+
+//splash screen 
+import SplashScreen from './components/SplashScreen/SplashScreen';
+
 function App() {
-  const [count, setCount] = useState(0)
+  const [count, setCount] = useState(0);
+
+  const [loading, setLoading] = useState(true);
+  
+  const handleLoaded = () => {
+    setLoading(false);
+  };
 
   return (
     <>
+      {loading && <SplashScreen onLoaded={handleLoaded} />}
+      {!loading && (
       <MantineProvider>
       <BrowserRouter>
         <Suspense fallback={<div>Loading...</div>}> 
@@ -133,6 +145,7 @@ function App() {
         </Suspense>
       </BrowserRouter>
       </MantineProvider>
+      )}
     </>
   )
 }

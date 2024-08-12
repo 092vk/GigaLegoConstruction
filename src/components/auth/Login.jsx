@@ -5,7 +5,7 @@ import { useNavigate } from 'react-router-dom';
 import { auth, provider, signInWithPopup, dbf } from '../auth/firebase'; //local
 import { signInWithEmailAndPassword } from 'firebase/auth'; //module
 import { setDoc, doc } from "firebase/firestore";
-
+import {Link} from 'react-router-dom'
 
 
 const Login = () => {
@@ -97,6 +97,7 @@ const Login = () => {
             <button onClick={handleGoogleSignIn} className="google-button">
             <FaGoogle  className='gSign'/> Sign in with Google
             </button>
+            <button className="button"><Link to={'/register'}>Register</Link></button>
           </div>
         </div>
       </div>
